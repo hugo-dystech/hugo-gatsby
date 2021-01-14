@@ -11,6 +11,18 @@ module.exports = {
     "gatsby-transformer-sharp",
     "gatsby-plugin-smoothscroll",
     {
+
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Hugo Richard`,
+        short_name: `Hugo Richard`,
+        start_url: `/`,
+        background_color: `#f7f0eb`,
+        theme_color: `#a2466c`,
+        display: `standalone`,
+        icon: `src/images/favicon.png`,
+      },
+      
       resolve: "gatsby-source-filesystem",
       options: {
         name: "images",
@@ -23,17 +35,6 @@ module.exports = {
               family: `Poppins`,
               variants: [`400`, `500`, `700`]
       }],
-      },
-
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `GatsbyJS`,
-        short_name: `GatsbyJS`,
-        start_url: `/`,
-        background_color: `#f7f0eb`,
-        theme_color: `#a2466c`,
-        display: `standalone`,
-        icon: `src/images/favicon.ico`,
       },
     },
     },
