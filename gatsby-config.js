@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "Hugo Richard",
+    siteUrl:"https://hugorichard.io",
   },
   plugins: [
     "gatsby-plugin-netlify-cms",

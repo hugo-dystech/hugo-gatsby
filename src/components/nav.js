@@ -15,7 +15,7 @@ export default function Nav () {
           <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav">
                   <li className="nav-item">
-                      <Link className={window.location.pathname === "/" ? "nav-link active" : "nav-link"} aria-current="page" to="/">About</Link>
+                      <Link className="nav-link" aria-current="page" to="/">About</Link>
                   </li>
                   <li className="nav-item dropdown">
                       <a className="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -23,7 +23,7 @@ export default function Nav () {
                       </a>
                       <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
                           <li>
-                          <Link className={window.location.pathname === "/tools/" ? "dropdown-item active" : "dropdown-item"} to="/tools/">
+                          <Link className="dropdown-item " to="/tools/">
                               Tools
                           </Link>
                           </li>
