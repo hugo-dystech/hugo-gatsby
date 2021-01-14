@@ -1,150 +1,413 @@
 import * as React from "react"
+import { Link } from "gatsby"
+import Layout from "../components/layout"
+import hugo from "../images/hugo.jpg"
+import Startup from "../images/Startup-daily-logo.png"
+import webDirection from "../images/web-direction.png"
+import theCube from "../images/the-cube.png"
+import Head from "../components/head"
 
-// styles
-const pageStyles = {
-  color: "#232129",
-  padding: "96px",
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-}
-const headingAccentStyles = {
-  color: "#663399",
-}
-const paragraphStyles = {
-  marginBottom: 48,
-}
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-}
-const listStyles = {
-  marginBottom: 96,
-  paddingLeft: 0,
-}
-const listItemStyles = {
-  fontWeight: "300",
-  fontSize: "24px",
-  maxWidth: "560px",
-}
-
-const linkStyle = {
-  color: "#8954A8",
-  fontWeight: "bold",
-  fontSize: "16px",
-  verticalAlign: "5%",
-}
-
-const docLinkStyle = {
-  ...linkStyle,
-  listStyleType: "none",
-  marginBottom: 24,
-}
-
-const descriptionStyle = {
-  color: "#232129",
-  fontSize: "14px",
-}
-
-const docLink = {
-  text: "Documentation",
-  url: "https://www.gatsbyjs.com/docs/",
-  color: "#8954A8",
-}
-// data
-const links = [
-  {
-    text: "Tutorial",
-    url: "https://www.gatsbyjs.com/docs/tutorial/",
-    description:
-      "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
-    color: "#E95800",
-  },
-  {
-    text: "How to Guides",
-    url: "https://www.gatsbyjs.com/docs/how-to/",
-    description:
-      "Practical step-by-step guides to help you achieve a specific goal. Most useful when you're trying to get something done.",
-    color: "#1099A8",
-  },
-  {
-    text: "Reference Guides",
-    url: "https://www.gatsbyjs.com/docs/reference/",
-    description:
-      "Nitty-gritty technical descriptions of how Gatsby works. Most useful when you need detailed information about Gatsby's APIs.",
-    color: "#BC027F",
-  },
-  {
-    text: "Conceptual Guides",
-    url: "https://www.gatsbyjs.com/docs/conceptual/",
-    description:
-      "Big-picture explanations of higher-level Gatsby concepts. Most useful for building understanding of a particular topic.",
-    color: "#0D96F2",
-  },
-  {
-    text: "Plugin Library",
-    url: "https://www.gatsbyjs.com/plugins",
-    description:
-      "Add functionality and customize your Gatsby site or app with thousands of plugins built by our amazing developer community.",
-    color: "#000000",
-  },
-]
 
 // markup
+
+
 const IndexPage = () => {
   return (
-    <main style={pageStyles}>
-      <title>Home Page</title>
-      <h1 style={headingStyles}>
-        Congratulations
-        <br />
-        <span style={headingAccentStyles}>— you just made a Gatsby site! </span>
-        <span role="img" aria-label="Party popper emojis">
-          🎉🎉🎉
-        </span>
-      </h1>
-      <p style={paragraphStyles}>
-        Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
-        update in real-time.{" "}
-        <span role="img" aria-label="Sunglasses smiley emoji">
-          😎
-        </span>
-      </p>
-      <ul style={listStyles}>
-        <li style={docLinkStyle}>
-          <a
-            style={linkStyle}
-            href={`${docLink.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
-          >
-            {docLink.text}
-          </a>
-        </li>
-        {links.map(link => (
-          <li style={{ ...listItemStyles, color: link.color }}>
-            <span>
-              <a
-                style={linkStyle}
-                href={`${link.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
-              >
-                {link.text}
-              </a>
-              <p style={descriptionStyle}>{link.description}</p>
-            </span>
-          </li>
-        ))}
-      </ul>
-      <img
-        alt="Gatsby G Logo"
-        src="data:image/svg+xml,%3Csvg width='24' height='24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 2a10 10 0 110 20 10 10 0 010-20zm0 2c-3.73 0-6.86 2.55-7.75 6L14 19.75c3.45-.89 6-4.02 6-7.75h-5.25v1.5h3.45a6.37 6.37 0 01-3.89 4.44L6.06 9.69C7 7.31 9.3 5.63 12 5.63c2.13 0 4 1.04 5.18 2.65l1.23-1.06A7.959 7.959 0 0012 4zm-8 8a8 8 0 008 8c.04 0 .09 0-8-8z' fill='%23639'/%3E%3C/svg%3E"
-      />
-    </main>
+    <Layout>
+            <Head
+            title="Hugo Richard - Growth Marketer"
+            description="I live and breathe startups, I worked in 3 different countries in 2 continents over the last 6 years. I help company growth, let's talk."
+            keyword="hugo richard"
+            ></Head>
+              <div className="container-fluid pb-5 pt-5">
+        <div className="row ps-md-5 pe-md-5 ">
+            <div className="col-12 col-md-6 m-auto pb-5 pb-md-0 pt-5 pt-md-0">
+                <h1>Growth hacker, entrepreneur &amp; maker</h1>
+                <p> I live and breathe startups, I worked in 3 different countries in 2 continents over the last 6 years. I am a consultant for startup marketing &amp; growth. I am a firm believer in profit for purpose.</p>
+                <p><Link className="fs-5 text-dark text-decoration-none plain-hover-black" to="mailto:zhugok@gmail.com"><strong>Let's talk <span role="img" aria-label="send email">&#128073;</span></strong></Link></p>
+                <Link to="https://www.linkedin.com/in/hugorichard/" target="blank"> <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" className="bi bi-linkedin" viewBox="0 0 16 16">
+                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                  </svg></Link>
+            </div>
+            <div className="col-12 col-md-6 text-center pt-5 pb-5">
+                <img inline src={hugo} className="img-fluid w-50 rounded shadow" alt="Hugo Richard" />
+            </div>
+
+        </div>
+    </div>
+    <nav id="innerNav" className="navbar shadow-sm navbar-expand-lg navbar-light bg-light sticky-lg-top pe-lg-5 ps-lg-5">
+        <div className="container-fluid">
+
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+          </button>
+            <div className="collapse navbar-collapse" id="navbarNav">
+
+                <ul className="navbar-nav">
+                    <li className="nav-item">
+                        <Link className="nav-link " to="#about">About me</Link>
+                    </li>
+
+                    <li className="nav-item">
+                        <Link className="nav-link " aria-current="page" to="#stuff">Cool stuff</Link>
+                    </li>
+
+                    <li className="nav-item">
+                        <Link className="nav-link " aria-current="page" to="#pr">PR stuff</Link>
+                    </li>
+
+                    <li className="nav-item">
+                        <Link className="nav-link " aria-current="page" to="#startup">Startup Life</Link>
+                    </li>
+
+                    <li className="nav-item">
+                        <Link className="nav-link " aria-current="page" to="#professional">Professional Life</Link>
+                    </li>
+
+                    <li className="nav-item">
+                        <Link className="nav-link " aria-current="page" to="#help">How can I help?</Link>
+                    </li>
+                </ul>
+
+            </div>
+            <Link className="navbar-brand " to="mailto:zhugok@gmail.com">Let's talk <span role="img" aria-label="send email">&#128073;</span></Link>
+
+        </div>
+    </nav>
+
+
+    <div id="about" className="container-fluid bg-light pt-5 pb-5">
+        <div className="row ps-md-5 pe-md-5  pt-5 pb-5">
+            <div className="col-12 col-md-4  pb-5">
+                <h1 className="pb-0">Few things about me</h1>
+                <small className="pb-5 text-muted">Don't like reading? <Link to="#stuff">Scroll down</Link></small>
+
+            </div>
+            <div className="col-12 col-md-6">
+                <p>I work with cross-functional teams to build &amp; grow SaaS products, I also have experience in business development, marketing and strategic partnership to grow companies.</p>
+                <p>I am a data-driven individual with the ability to analyse data with creative agility, extract knowledge and nurture business growth. And I do my best work with teams I can learn from and challenges that kindle my curiosity.</p>
+                <p>I believe in people and social good. Tech has changed our lives over the past decades, it is now our responsibility to do good with the tools we have.</p>
+                <p>Profit is good, but impact is better.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="stuff" className="container-fluid pt-5 ">
+        <div className="row ps-md-5 pe-md-5  pb-5">
+            <div className="col-12">
+                <h1 className="text-center pt-0 pb-5">I am glad you're here.</h1>
+            </div>
+            <div className="col-lg-4 col-md-6 pb-5">
+                <div className="card h-100 bg-2 rounded  border-0">
+                    <div className="card-header mt-3 bg-transparent  border-0">
+                        <h2 className="text-2-dark">60+ growth tools</h2>
+                    </div>
+
+                    <div className="card-body text-2-dark">
+                        <p>Throughout my work, I have used multiple tools. I put together a list of my favourite, it could also help you find new cool tools for you to use.</p>
+                    </div>
+                    <div className="card-footer mb-3 bg-transparent  border-0">
+                        <Link to="/tools/" className="fs-5 text-2-dark text-decoration-none plain-hover-2"><strong>Tools collection &#8594;</strong></Link><br />
+                    </div>
+                </div>
+
+            </div>
+
+            <div className="col-lg-4 col-md-6 pb-5">
+                <div className="card h-100 bg-3 rounded  border-0">
+                    <div className="card-header mt-3 mb-0 bg-transparent  border-0">
+                        <h2 className="text-3-dark">Checklist</h2>
+                    </div>
+                    <div className="card-body text-3-dark">
+                        <p>A collection of checklist I like to use for pretty much everything: from writing a blog post to product launch.</p>
+                    </div>
+                    <div className="card-footer mb-3 bg-transparent  border-0">
+                        <Link to="/checklist/" className="fs-5 text-3-dark text-decoration-none plain-hover-3"><strong>Checklist collection &#8594;</strong></Link>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 pb-5">
+                <div className="card h-100 bg-2 rounded  border-0">
+                    <div className="card-header mt-3 mb-0 bg-transparent  border-0">
+                        <h2 className="text-2-dark">Landing Page Framework</h2>
+                    </div>
+                    <div className="card-body text-2-dark">
+                        <p>A simple landing with section example, to guide you through the thought process of building a landing page.</p>
+                    </div>
+                    <div className="card-footer mb-3 bg-transparent  border-0">
+                    <Link to="/landing-page-framework/" className="fs-5 text-2-dark text-decoration-none plain-hover-2"><strong>Landing page framework &#8594;</strong></Link>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 pb-5">
+                <div className="card h-100 bg-3 rounded  border-0">
+                    <div className="card-header mt-3 bg-transparent  border-0">
+                        <h2 className="text-3-dark">Job Descriptions</h2>
+                    </div>
+                    <div className="card-body text-3-dark">
+                        <p>I have put together a list of job descriptions we used to hire our team. Feel free to use them. Specially made for tech startups.</p>
+                    </div>
+                    <div className="card-footer mb-3 bg-transparent  border-0">
+                        <Link to="/job-descriptions/" className="fs-5 text-3-dark text-decoration-none plain-hover-3"><strong>Description templates &#8594;</strong></Link>
+
+                    </div>
+                </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 pb-5">
+                <div className="card h-100 bg-2 rounded  border-0">
+                    <div className="card-header mt-3 bg-transparent  border-0">
+                        <h2 className="text-2-dark">Outside of work</h2>
+                    </div>
+                    <div className="card-body text-2-dark">
+                        <p>Want to see what I am up to when I don't do work? Here we go.</p>
+                    </div>
+                    <div className="card-footer mb-3 bg-transparent  border-0">
+                        <Link to="/outside-of-work/" className="fs-5 text-2-dark text-decoration-none plain-hover-2"><strong>What am I up to &#8594;</strong></Link>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 pb-5">
+                <div className="card h-100 bg-3 rounded  border-0">
+                    <div className="card-header mt-3 bg-transparent  border-0">
+                        <h2 className="text-3-dark">Startup Metrics</h2>
+                    </div>
+                    <div className="card-body text-3-dark">
+                        <p>What should you measure? What are metrics anyway? Here is a beginner guide on metrics that matter for SaaS startup.</p>
+                    </div>
+                    <div className="card-footer mb-3 bg-transparent  border-0">
+                        <Link to="" className="fs-5 text-3-dark text-decoration-none plain-hover-3 disable"><strong>Coming soon <div class="spinner-border spinner-border-sm ms-1 mb-1" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div></strong></Link>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="pr" className="container-fluid pt-5 pb-5">
+        <div className="row ps-md-5 pe-md-5  pb-5 pt-5">
+            <div className="col-12 text-center">
+                <h1 className="pb-0">PR &amp; Speaking stuff</h1>
+                <p>Some public talks and TV interviews <span role="img" aria-label="funny emoji">😎</span></p>
+            </div>
+            <div className="col-md-4 text-center">
+                <img className="img-fluid w-50" src={Startup} alt="startup daily" />
+                <p>TV interview as a Co-founder of <a href="https://dystech.com.au" target="blank">Dystech</a></p>
+
+                <div className="ratio ratio-16x9">
+                    <iframe title="tv interview" src="https://www.youtube.com/embed/DNj9237rZ9Y" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                </div>
+            </div>
+            <div className="col-md-4 text-center">
+                <img className="img-fluid w-50" src={webDirection} alt="web direction" />
+                <p>Speaker at
+                    <a href="https://www.webdirections.org/ai/speakers/hugo-richard.php" target="blank">Web Direction AI 2018 </a>
+                </p>
+                <div className="ratio ratio-16x9">
+
+                    <iframe title="Public speaking" src="https://www.youtube.com/embed/5XNc0mZpNNw" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                </div>
+            </div>
+
+            <div className="col-md-4 text-center">
+                <img className="img-fluid w-50" src={theCube} alt="the cube" />
+                <p>Interview with AWS &amp; <a href="https://www.thecube.net/" target="blank">The Cube</a>
+                </p>
+                <div className="ratio ratio-16x9">
+                    <iframe title="Another TV interview" src="https://www.youtube.com/embed/5PpogJnO6xY" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div id="startup" className="container-fluid pt-5 pb-5">
+        <div className="row ps-md-5 pe-md-5  pb-5 pt-5">
+            <div className="row ps-md-5 pe-md-5  ">
+                <div className="col-12  col-md-6 pb-5">
+                    <h1>Startup life</h1>
+
+                    <p>I have founded and managed 4 startups through the course of my career. The one I’m most proud of is Dystech, a SaaS platform to screen for the likelihood of dyslexia using AI. In my role as CEO ( Chief Everything Officer ), I have
+                        established a global partnership and client network ranging from governments to dyslexic associations. </p>
+                    <p>Using my knowledge in AI and multiple tech stacks, I not only steered but also participated in the development of the platform. I have also led the team to produce scientific publications in European conferences and journals to increase
+                        our credibility. But what I consider my biggest achievement is that Dystech has helped over 10,000 families by providing affordable and accessible screening for dyslexia.</p>
+                    <p>Geom Chat, another startup I founded, developed chatbot interfaces for companies. The ingenuity behind Geom Chat led to me being invited as a paid speaker at an International AI conference in Sydney. <Link target="blank" to="https://youtu.be/5XNc0mZpNNw">Listen to it</Link></p>
+                </div>
+                <div className="col-12 col-md-6 bg-2 rounded d-inline-block">
+                    <div className="card bg-2 rounded border-0 mb-5">
+                        <div className="card-header mt-3 bg-transparent  border-0">
+                            <h2 >Dystech</h2>
+                            <p className="card-subtitle ">Co-founder - CEO</p>
+
+                        </div>
+
+                        <div className="card-body">
+                            <p>We have developed the World’s first assessment app for dyslexia, using artificial intelligence.</p>
+                        </div>
+                        <div className="card-footer mb-3 bg-transparent  border-0">
+                            <a target="blank" href="https://dystech.com.au" className="btn btn-2 btn-large">Check it out</a>
+                        </div>
+                    </div>
+
+                    <div className="card bg-2 rounded border-0 mb-5">
+                        <div className="card-header mt-3 bg-transparent  border-0">
+                            <h2 >Geom</h2>
+                            <p className="card-subtitle ">Co-founder - Board Member</p>
+
+                        </div>
+                        <div className="card-body">
+                            <p>Create a 3D tour of your space instantly, for free by simply uploading your floorplan. Use it anywhere, share it with anyone</p>
+                        </div>
+                        <div className="card-footer mb-3 bg-transparent  border-0">
+                            <a target="blank" href="https://geom.ai" className="btn btn-2 btn-large">Check it out</a>
+                        </div>
+                    </div>
+
+                    <div className="card bg-2 rounded border-0 mb-5">
+                        <div className="card-header mt-3 bg-transparent  border-0">
+                            <h2 >Geom Chat</h2>
+                            <p className="card-subtitle ">Co-founder - CEO</p>
+                        </div>
+                        <div className="card-body">
+                            <p>Developing chatbot for multitude of clients worldwide.</p>
+                        </div>
+                    </div>
+
+                    <div className="card bg-2 rounded border-0 mb-5">
+                        <div className="card-header mt-3 bg-transparent  border-0">
+                            <h2 >Koxai</h2>
+                            <p className="card-subtitle">Co-founder - CMO</p>
+
+                        </div>
+                        <div className="card-body">
+                            <p>Consulting agency in Machine Learning based in London. I have exited the company in 2017
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="professional" className="container-fluid pt-5 pb-5">
+        <div className="row ps-md-5 pe-md-5  pb-5 pt-5">
+            <div className="row ps-md-5 pe-md-5  ">
+                <div className="col-12  col-md-6 pb-5">
+                    <h1>Professional life</h1>
+
+                    <p>My role as a Growth marketer with Image Direct, a full stack agency ranging from Facebook &amp; Google ads to web design, taught me everything I know about digital growth. This includes metrics that matter, learning from the data collected
+                        and creating innovative experiments that explore and improve multiple facets of the business from activation to retention thereby leading to growth. </p>
+                    <p>I also recently been involved with a non for profit organisation, isgood.ai as a growth hacker, working on their online presence to improve growth and clarify messaging.</p>
+                    <p>In my role at Outfox The Market in the UK as a business analyst, I explored large businesses and their operating ecosystems, analysing gaps in their processes and curating potential solutions for excellence.</p>
+                </div>
+                <div className="col-12 col-md-6 bg-2 rounded d-inline-block">
+                    <div className="card  bg-transparent border-0 mb-5">
+                        <div className="card-header mt-3 bg-transparent  border-0">
+                            <h2 >Image Direct</h2>
+                            <p className="card-subtitle ">Growth Marketer - 5 Years</p>
+
+                        </div>
+
+                        <div className="card-body">
+                            <p>Image Direct is a full stack digital agency.</p>
+                        </div>
+                        <div className="card-footer mb-3 bg-transparent  border-0">
+                            <a target="blank" href="https://imagedirect.com.au" className="btn btn-2 btn-large">Check it out</a>
+                        </div>
+                    </div>
+
+                    <div className="card bg-transparent border-0 mb-5">
+                        <div className="card-header mt-3 bg-transparent  border-0">
+                            <h2 >isgood.ai</h2>
+                            <p className="card-subtitle ">Growth Hacker - 6 months</p>
+
+                        </div>
+                        <div className="card-body">
+                            <p>The world's first AI platform for social impact optimisation.</p>
+                        </div>
+                        <div className="card-footer mb-3 bg-transparent  border-0">
+                            <a target="blank" href="https://isgood.ai" className="btn btn-2 btn-large">Check it out</a>
+                        </div>
+                    </div>
+
+                    <div className="card bg-transparent border-0 mb-5">
+                        <div className="card-header mt-3 bg-transparent  border-0">
+                            <h2 >Outfox The Market</h2>
+                            <p className="card-subtitle ">Business Analyst - 1 year</p>
+                        </div>
+                        <div className="card-body">
+                            <p>Fisher Energy (Rebranded Outfox The Market) is a gas and electricity supplier in the UK.</p>
+                        </div>
+
+                        <div className="card-footer mb-3 bg-transparent  border-0">
+                            <a target="blank" href="https://www.outfoxthemarket.co.uk/" className="btn btn-2 btn-large">Check it out</a>
+                        </div>
+                    </div>
+
+                    <div className="card bg-transparent border-0 mb-5">
+                        <div className="card-header mt-3 bg-transparent  border-0">
+                            <h2 >Startup Gippsland</h2>
+                            <p className="card-subtitle ">Ambassador - 2 years</p>
+
+                        </div>
+                        <div className="card-body">
+                            <p>Consulting agency in Machine Learning based in London. I have exited the company in 2017
+                            </p>
+                        </div>
+
+                        <div className="card-footer mb-3 bg-transparent  border-0">
+                            <a target="blank" href="https://startupgippsland.com.au/" className="btn btn-2 btn-large">Check it out</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="help" className="container-fluid pt-5 pb-5 bg-dark">
+        <div className="row ps-md-5 pe-md-5  pt-5 pb-5 text-white">
+            <div className="col-12 text-center">
+                <h1 className="text-white">How can I help?</h1>
+            </div>
+            <div className=" col-md-6 mt-3 mb-3">
+                <h2 className="text-white">Value Proposition Positioning</h2>
+                <p>Understanding, clarifying, and positioning your value proposition in a way that customer care.</p>
+            </div>
+
+            <div className=" col-md-6 mt-3 mb-3">
+                <h2 className="text-white">Marketing Automations</h2>
+                <p>Developing and implementing smart marketing practices to make your target audience aware of your business and get them to your (virtual) door</p>
+            </div>
+
+            <div className=" col-md-6 mt-3 mb-3">
+                <h2 className="text-white">Sales Processes</h2>
+                <p>Creating sales processes and practices you can repeat and be proud of that convert your target audience's interest into sales</p>
+            </div>
+
+            <div className=" col-md-6 mt-3 mb-3">
+                <h2 className="text-white">Integrating Operations</h2>
+                <p>The most expensive car parts don't do much on their own. It's how they are integrated that matters most. The parts of your business are the same, and I can help you engineer the best integration for the best results.
+                </p>
+            </div>
+            <div className="col-12 text-center pt-3">
+                <Link className="fs-5 text-decoration-none plain-hover-white text-white" to="mailto:zhugok@gmail.com"><strong>Let's talk  <span role="img" aria-label="send email">&#128073;</span></strong></Link>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+            </Layout>
+
   )
 }
+
+
 
 export default IndexPage
