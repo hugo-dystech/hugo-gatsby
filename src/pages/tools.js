@@ -65,12 +65,12 @@ const ToolPage = () => {
 
             <div id="explore" className="col-md-3 mb-3">
                 <nav  className="nav flex-column sticky-top">
-                    <a className="nav-link text-2-dark" href="#analytics">Analytics Tools</a>
-                    <a className="nav-link text-2-dark" href="#social">Social Media Tools</a>
-                    <a className="nav-link text-2-dark" href="#seo">SEO/Content Marketing Tools</a>
-                    <a className="nav-link text-2-dark" href="#video">Video Tools</a>
-                    <a className="nav-link text-2-dark" href="#designer">Designer Tools</a>
-                    <a className="nav-link text-2-dark" href="#email">Email Marketing Tools</a>
+                    <a className="nav-link text-2-dark plain-hover-2" href="#analytics">Analytics Tools</a>
+                    <a className="nav-link text-2-dark plain-hover-2" href="#social">Social Media Tools</a>
+                    <a className="nav-link text-2-dark plain-hover-2" href="#seo">SEO/Content Tools</a>
+                    <a className="nav-link text-2-dark plain-hover-2" href="#video">Video Tools</a>
+                    <a className="nav-link text-2-dark plain-hover-2" href="#designer">Designer Tools</a>
+                    <a className="nav-link text-2-dark plain-hover-2" href="#email">Email Marketing Tools</a>
                     <a href="https://www.buymeacoffee.com/hugorichard" target="blank" className="btn btn-2 mt-3">Coffee? <span role="img" aria-label="coffee emoji">☕️</span></a>
 
                 </nav>

@@ -5,10 +5,8 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-netlify-cms",
-    "gatsby-plugin-sharp",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
-    "gatsby-transformer-sharp",
     "gatsby-plugin-smoothscroll",
     {
 
@@ -34,8 +32,13 @@ module.exports = {
       fonts: [{
               family: `Poppins`,
               variants: [`400`, `500`, `700`]
-      }],
       },
+      `gatsby-plugin-sharp`,
+      `gatsby-transformer-sharp`,
+    ],
+      
+      },
+      
     },
     },
     

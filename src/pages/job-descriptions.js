@@ -37,14 +37,14 @@ const ToolPage = () => {
 
             <div id="explore" className="col-md-3 mb-3">
                 <nav  className="nav flex-column sticky-top">
-                <a class="nav-link text-3-dark" href="#backenddev">Backend Developer</a>
-                    <a class="nav-link text-3-dark" href="#frontenddev">Frontend Developer</a>
-                    <a class="nav-link text-3-dark" href="#datascientist">Data Scientist</a>
-                    <a class="nav-link text-3-dark" href="#fullstack">Fullstack Engineer</a>
-                    <a class="nav-link text-3-dark" href="#productmanager">Product Manager</a>
-                    <a class="nav-link text-3-dark" href="#qa">QA Engineer</a>
-                    <a class="nav-link text-3-dark" href="#android">Android Engineer</a>
-                    <a class="nav-link text-3-dark" href="#ios">IOS Engineer</a>
+                <a class="nav-link text-3-dark plain-hover-3" href="#backenddev">Backend Developer</a>
+                    <a class="nav-link text-3-dark plain-hover-3" href="#frontenddev">Frontend Developer</a>
+                    <a class="nav-link text-3-dark plain-hover-3" href="#datascientist">Data Scientist</a>
+                    <a class="nav-link text-3-dark plain-hover-3" href="#fullstack">Fullstack Engineer</a>
+                    <a class="nav-link text-3-dark plain-hover-3" href="#productmanager">Product Manager</a>
+                    <a class="nav-link text-3-dark plain-hover-3" href="#qa">QA Engineer</a>
+                    <a class="nav-link text-3-dark plain-hover-3" href="#android">Android Engineer</a>
+                    <a class="nav-link text-3-dark plain-hover-3" href="#ios">IOS Engineer</a>
                     <a href="https://www.buymeacoffee.com/hugorichard" target="blank" className="btn btn-3 mt-3">Coffee? <span role="img" aria-label="coffee emoji">☕️</span></a>
 
                 </nav>

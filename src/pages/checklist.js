@@ -35,11 +35,11 @@ const ChecklistPage = () => {
 
             <div id="explore" className="col-md-3 mb-3">
                 <nav  className="nav flex-column sticky-top">
-                    <a className="nav-link text-3-dark" href="#blogpost">Blog post</a>
-                    <a className="nav-link text-3-dark" href="#uxcopy">UX Copy</a>
-                    <a className="nav-link text-3-dark" href="#startupidea">Startup Idea</a>
-                    <a className="nav-link text-3-dark" href="#productlaunch">Product Launch</a>
-                    <a className="nav-link text-3-dark" href="#gotomarket">Go-to-market</a>
+                    <a className="nav-link text-3-dark plain-hover-3" href="#blogpost">Blog post</a>
+                    <a className="nav-link text-3-dark plain-hover-3" href="#uxcopy">UX Copy</a>
+                    <a className="nav-link text-3-dark plain-hover-3" href="#startupidea">Startup Idea</a>
+                    <a className="nav-link text-3-dark plain-hover-3" href="#productlaunch">Product Launch</a>
+                    <a className="nav-link text-3-dark plain-hover-3" href="#gotomarket">Go-to-market</a>
                     <p className="nav-link text-warning">More coming <div class="spinner-border spinner-border-sm ms-1 mb-1" role="status">
   <span class="visually-hidden">Loading...</span>
 </div></p>

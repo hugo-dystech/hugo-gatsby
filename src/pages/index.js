@@ -80,7 +80,7 @@ const IndexPage = () => {
         <div className="row ps-md-5 pe-md-5  pt-5 pb-5">
             <div className="col-12 col-md-4  pb-5">
                 <h1 className="pb-0">Few things about me</h1>
-                <small className="pb-5 text-muted">Don't like reading? <Link to="#stuff">Scroll down</Link></small>
+                <small className="pb-5 text-muted">Don't like reading? <a href="#stuff">Scroll down</a></small>
 
             </div>
             <div className="col-12 col-md-6">

@@ -2,8 +2,13 @@
 
 * {
     font-family: 'Poppins', sans-serif;
+    
 }
 
+html,
+body {
+  scroll-behavior: smooth;
+}
 .send-to-back {
     z-index: -9999;
 }
@@ -56,7 +61,10 @@
  {
     transition: 300ms;
     border-bottom: 2px solid transparent;
+    width: fit-content;
+
 }
+
 
 .plain-hover-white:hover {
     border-color: white;
