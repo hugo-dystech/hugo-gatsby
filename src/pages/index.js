@@ -151,7 +151,7 @@ const IndexPage = () => {
                         <p>I have put together a list of job descriptions I have used to hire in the past. Specially made for tech startups.</p>
                     </div>
                     <div className="card-footer mb-3 bg-transparent  border-0">
-                        <Link to="/job-descriptions/" className="fs-5 text-3-dark text-decoration-none plain-hover-3"><strong>Description templates &#8594;</strong></Link>
+                        <Link to="/job-descriptions/" className="fs-5 text-3-dark text-decoration-none plain-hover-3"><strong>Job Descriptions &#8594;</strong></Link>
 
                     </div>
                 </div>
@@ -235,7 +235,7 @@ const IndexPage = () => {
 
                     <p>I have founded and managed 4 startups through the course of my career. The one I’m most proud of is Dystech, a SaaS platform to screen for the likelihood of dyslexia using AI. In my role as CEO ( Chief Everything Officer ), I have
                         established a global partnership and client network ranging from governments to dyslexic associations. </p>
-                    <p>Using my knowledge in AI and multiple tech stacks, I not only steered but also participated in the development of the platform. I have also led the team to produce scientific publications in European conferences and journals to increase
+                    <p>Using my knowledge in AI and multiple tech stacks, I not only steered but also participated in the development of the platform. I also led the team to produce scientific publications in European conferences and journals to increase
                         our credibility. But what I consider my biggest achievement is that Dystech has helped over 10,000 families by providing affordable and accessible screening for dyslexia.</p>
                     <p>Geom Chat, another startup I founded, developed chatbot interfaces for companies. The ingenuity behind Geom Chat led to me being invited as a paid speaker at an International AI conference in Sydney. <Link target="blank" to="https://youtu.be/5XNc0mZpNNw">Listen to it</Link></p>
                 </div>
@@ -248,7 +248,7 @@ const IndexPage = () => {
                         </div>
 
                         <div className="card-body">
-                            <p>We have developed the World’s first assessment app for dyslexia, using artificial intelligence.</p>
+                            <p>The world’s first assessment app for dyslexia, using artificial intelligence.</p>
                         </div>
                         <div className="card-footer mb-3 bg-transparent  border-0">
                             <a target="blank" href="https://dystech.com.au" className="btn btn-2 btn-large">Check it out</a>
@@ -275,7 +275,7 @@ const IndexPage = () => {
                             <p className="card-subtitle ">Co-founder - CEO</p>
                         </div>
                         <div className="card-body">
-                            <p>Developing chatbot for multitude of clients worldwide.</p>
+                            <p>An agency developing chatbot for a multitude of clients worldwide.</p>
                         </div>
                     </div>
 
@@ -286,7 +286,7 @@ const IndexPage = () => {
 
                         </div>
                         <div className="card-body">
-                            <p>Consulting agency in Machine Learning based in London. I have exited the company in 2017
+                            <p>A consulting agency in Machine Learning based in London. I exited the company in 2017
                             </p>
                         </div>
                     </div>
@@ -303,8 +303,8 @@ const IndexPage = () => {
 
                     <p>My role as a Growth marketer with Image Direct, a full stack agency ranging from Facebook &amp; Google ads to web design, taught me everything I know about digital growth. This includes metrics that matter, learning from the data collected
                         and creating innovative experiments that explore and improve multiple facets of the business from activation to retention thereby leading to growth. </p>
-                    <p>I also recently been involved with a non for profit organisation, isgood.ai as a growth hacker, working on their online presence to improve growth and clarify messaging.</p>
-                    <p>In my role at Outfox The Market in the UK as a business analyst, I explored large businesses and their operating ecosystems, analysing gaps in their processes and curating potential solutions for excellence.</p>
+                    <p>I have also been involved with isgood.ai, a non for profit organisation, as a growth hacker & now advisor working on their online presence to improve growth and clarify messaging.</p>
+                    <p>In my role at Outfox The Market (UK) as a business analyst, I explored large businesses and their operating ecosystems, analysing gaps in their processes and curating potential solutions for improvement.</p>
                 </div>
                 <div className="col-12 col-md-6 bg-2 rounded d-inline-block">
                     <div className="card  bg-transparent border-0 mb-5">
@@ -325,11 +325,12 @@ const IndexPage = () => {
                     <div className="card bg-transparent border-0 mb-5">
                         <div className="card-header mt-3 bg-transparent  border-0">
                             <h2 >isgood.ai</h2>
+                            <p className="card-subtitle ">Advisor - present</p>
                             <p className="card-subtitle ">Growth Hacker - 6 months</p>
 
                         </div>
                         <div className="card-body">
-                            <p>The world's first AI platform for social impact optimisation.</p>
+                            <p>An innovative AI platform for social impact optimisation.</p>
                         </div>
                         <div className="card-footer mb-3 bg-transparent  border-0">
                             <a target="blank" href="https://isgood.ai" className="btn btn-2 btn-large">Check it out</a>
@@ -342,7 +343,7 @@ const IndexPage = () => {
                             <p className="card-subtitle ">Business Analyst - 1 year</p>
                         </div>
                         <div className="card-body">
-                            <p>Fisher Energy (Rebranded Outfox The Market) is a gas and electricity supplier in the UK.</p>
+                            <p>Fisher Energy (Rebranded Outfox The Market) is a premium gas and electricity supplier in the UK.</p>
                         </div>
 
                         <div className="card-footer mb-3 bg-transparent  border-0">
@@ -357,7 +358,7 @@ const IndexPage = () => {
 
                         </div>
                         <div className="card-body">
-                            <p>Consulting agency in Machine Learning based in London. I have exited the company in 2017
+                            <p>The largest regional startup accelerator in Australia
                             </p>
                         </div>
 
