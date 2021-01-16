@@ -1,7 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
-import hugo from "../images/hugo.jpg"
+import hugo from "../images/hugo-cover-3.jpeg"
 import Startup from "../images/Startup-daily-logo.png"
 import webDirection from "../images/web-direction.png"
 import theCube from "../images/the-cube.png"
@@ -21,7 +21,7 @@ const IndexPage = () => {
             ></Head>
               <div className="container-fluid pb-5 pt-5">
         <div className="row ps-md-5 pe-md-5 ">
-            <div className="col-12 col-md-6 m-auto pb-5 pb-md-0 pt-5 pt-md-0">
+            <div className="col-12 col-md-6 m-auto pb-5 pb-md-0 pt-5 ps-5 pe-5 pt-md-0">
                 <h1>Growth hacker, entrepreneur &amp; maker</h1>
                 <p> I live and breathe startups, I worked in 3 different countries in 2 continents over the last 6 years. I have a long experience in marketing & growth with SaaS startups. I am a firm believer in profit for purpose.</p>
                 <p><Link className="fs-5 text-dark text-decoration-none plain-hover-black" to="mailto:zhugok@gmail.com"><strong>Let's talk <span role="img" aria-label="send email">&#128073;</span></strong></Link></p>
@@ -30,7 +30,8 @@ const IndexPage = () => {
                   </svg></Link>
             </div>
             <div className="col-12 col-md-6 text-center pt-5 pb-5">
-                <img inline src={hugo} className="img-fluid w-50 rounded shadow" alt="Hugo Richard" />
+                <img inline src={hugo} className="img-fluid d-none d-md-block w-75 rounded m-auto shadow" alt="Hugo Richard" />
+                <img inline src={hugo} className="img-fluid d-md-none w-50 rounded m-auto shadow" alt="Hugo Richard" />
             </div>
 
         </div>
