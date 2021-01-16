@@ -23,7 +23,7 @@ const IndexPage = () => {
         <div className="row ps-md-5 pe-md-5 ">
             <div className="col-12 col-md-6 m-auto pb-5 pb-md-0 pt-5 ps-5 pe-5 pt-md-0">
                 <h1>Growth hacker, entrepreneur &amp; maker</h1>
-                <p> I live and breathe startups, I worked in 3 different countries in 2 continents over the last 6 years. I have a long experience in marketing & growth with SaaS startups. I am a firm believer in profit for purpose.</p>
+                <p> I live and breathe startups, and I have worked in 3 different countries in 2 continents over the last 6 years. I have good experience in marketing & growth with SaaS startups and I am a firm believer in profit for purpose.</p>
                 <p><Link className="fs-5 text-dark text-decoration-none plain-hover-black" to="mailto:zhugok@gmail.com"><strong>Let's talk <span role="img" aria-label="send email">&#128073;</span></strong></Link></p>
                 <Link to="https://www.linkedin.com/in/hugorichard/" target="blank"> <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" className="bi bi-linkedin" viewBox="0 0 16 16">
                     <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
@@ -85,9 +85,9 @@ const IndexPage = () => {
 
             </div>
             <div className="col-12 col-md-6">
-                <p>I work with cross-functional teams to build &amp; grow SaaS products, I also have experience in business development, marketing and strategic partnership to grow companies.</p>
-                <p>I am a data-driven individual with the ability to analyse data with creative agility, extract knowledge and nurture business growth. And I do my best work with teams I can learn from and challenges that kindle my curiosity.</p>
-                <p>I believe in people and social good. Tech has changed our lives over the past decades, it is now our responsibility to do good with the tools we have.</p>
+                <p>I work with cross-functional teams to build &amp; grow SaaS products. I also have experience in business development, marketing and strategic partnership.</p>
+                <p>I am a data-driven individual with the ability to analyse data with creative agility, extract knowledge and nurture business growth. I do my best work with teams I can learn from and challenges that kindle my curiosity.</p>
+                <p>I believe in people and social good. Tech has changed our lives over the past decades, and it is now our responsibility to do good with the tools we have.</p>
                 <p>Profit is good, but impact is better.</p>
             </div>
         </div>
@@ -105,7 +105,7 @@ const IndexPage = () => {
                     </div>
 
                     <div className="card-body text-2-dark">
-                        <p>Throughout my work, I have used multiple tools. I put together a list of my favourite, it could also help you find new cool tools for you to use.</p>
+                        <p>Throughout my work, I have used multiple tools. I have put together a list of my favourites, which may also help you find new tools to use.</p>
                     </div>
                     <div className="card-footer mb-3 bg-transparent  border-0">
                         <Link to="/tools/" className="fs-5 text-2-dark text-decoration-none plain-hover-2"><strong>Tools collection &#8594;</strong></Link><br />
@@ -120,7 +120,7 @@ const IndexPage = () => {
                         <h2 className="text-3-dark">Checklist</h2>
                     </div>
                     <div className="card-body text-3-dark">
-                        <p>A collection of checklist I like to use for pretty much everything: from writing a blog post to product launch.</p>
+                        <p>A collection of checklists I like to use for pretty much everything; from writing blog posts to product launches.</p>
                     </div>
                     <div className="card-footer mb-3 bg-transparent  border-0">
                         <Link to="/checklist/" className="fs-5 text-3-dark text-decoration-none plain-hover-3"><strong>Checklist collection &#8594;</strong></Link>
@@ -134,7 +134,7 @@ const IndexPage = () => {
                         <h2 className="text-2-dark">Landing Page Framework</h2>
                     </div>
                     <div className="card-body text-2-dark">
-                        <p>A simple landing with section example, to guide you through the thought process of building a landing page.</p>
+                        <p>A simple framework with examples to guide you through the thought process of building a landing page.</p>
                     </div>
                     <div className="card-footer mb-3 bg-transparent  border-0">
                     <Link to="/landing-page-framework/" className="fs-5 text-2-dark text-decoration-none plain-hover-2"><strong>Landing page framework &#8594;</strong></Link>
@@ -148,7 +148,7 @@ const IndexPage = () => {
                         <h2 className="text-3-dark">Job Descriptions</h2>
                     </div>
                     <div className="card-body text-3-dark">
-                        <p>I have put together a list of job descriptions we used to hire our team. Feel free to use them. Specially made for tech startups.</p>
+                        <p>I have put together a list of job descriptions I have used to hire in the past. Specially made for tech startups.</p>
                     </div>
                     <div className="card-footer mb-3 bg-transparent  border-0">
                         <Link to="/job-descriptions/" className="fs-5 text-3-dark text-decoration-none plain-hover-3"><strong>Description templates &#8594;</strong></Link>
@@ -163,7 +163,7 @@ const IndexPage = () => {
                         <h2 className="text-2-dark">Outside of work</h2>
                     </div>
                     <div className="card-body text-2-dark">
-                        <p>Want to see what I am up to when I don't do work? Here we go.</p>
+                        <p>Want to see what I am up to when I am not working? Here is a sneak peek into my life.</p>
                     </div>
                     <div className="card-footer mb-3 bg-transparent  border-0">
                         <Link to="/outside-of-work/" className="fs-5 text-2-dark text-decoration-none plain-hover-2"><strong>What am I up to &#8594;</strong></Link>
@@ -177,7 +177,7 @@ const IndexPage = () => {
                         <h2 className="text-3-dark">Startup Metrics</h2>
                     </div>
                     <div className="card-body text-3-dark">
-                        <p>What should you measure? What are metrics anyway? Here is a beginner guide on metrics that matter for SaaS startup.</p>
+                        <p>What should you measure? What are metrics anyway? A beginner guide to metrics that matter for SaaS startups.</p>
                     </div>
                     <div className="card-footer mb-3 bg-transparent  border-0">
                         <Link to="" className="fs-5 text-3-dark text-decoration-none plain-hover-3 disable"><strong>Coming soon <div class="spinner-border spinner-border-sm ms-1 mb-1" role="status">
@@ -394,10 +394,6 @@ const IndexPage = () => {
                 <p>The most expensive car parts don't do much on their own. It's how they are integrated that matters most. The parts of your business are the same, and I can help you engineer the best integration for the best results.
                 </p>
             </div>
-            <div className="col-12 text-center pt-3">
-                <Link className="fs-5 text-decoration-none plain-hover-white text-white" to="mailto:zhugok@gmail.com"><strong>Let's talk  <span role="img" aria-label="send email">&#128073;</span></strong></Link>
-            </div>
-
         </div>
 
 
