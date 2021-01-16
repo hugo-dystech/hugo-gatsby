@@ -26,11 +26,11 @@ const LandingPageFramework = () => {
                 <Header
                 title="Landing page framework"
                 color="2"
-                p1="I have built this framework to give anyone some rational and understanding about what people see when they visit your page."
-                p2="Landing pages are a key ingredient to get an email, acquire users or make sales. Before you get started with this template there are a few rules/disclaimers"
-                list1="Adjust this framework based on your business and customer, don't take it for granted"
-                list2="The goal with this template is to provide explanations about deferent sections of a landing page"
-                list3="A landing page is a lot of trial and error, this is just to get you started."
+                p1="I have built this framework to give you some rational and understanding about what people see when they visit your page."
+                p2="Landing pages are a key ingredient to collect emails, acquire users or make sales. Before you get started with this template, read the following rules/disclaimers."
+                list1="Adjust this framework based on your business and customers. Don't take it for granted"
+                list2="The goal of this template is to provide interpretations on diferent sections of a landing page"
+                list3="A good landing page requires a lot of trial and error. This is just to get you started."
                 btn2text="Get the code"
                 btn2link="https://github.com/hugo-dystech/hugo-website/blob/main/landing-page-template.zip"
                 >
@@ -56,7 +56,7 @@ const LandingPageFramework = () => {
                 <h1>Here is how we solve your <u>problem</u> super <u>easily!</u></h1>
                 <p>Explain your product/service with the least amount of detail. Your goal is to convince them with as little words as possible. Be clear and precise.</p>
                 <button className="btn btn-success btn-lg">Detailed CTA</button>
-                <p><small className="text-muted">Reduce the commitment as much as possible. For example do not ask for a credit card, you can also provide an <span className="text-decoration-underline">alternative here</span> </small></p>
+                <p><small className="text-muted">Reduce the commitment as much as possible. For example do not ask for a credit card. You can also provide an <span className="text-decoration-underline">alternative here</span> </small></p>
             </div>
         </div>
 
@@ -70,7 +70,7 @@ const LandingPageFramework = () => {
         <div className="row ">
             <div className="col-md-8 m-auto text-center">
                 <h1>Build trust!</h1>
-                <p><small>If they are scrolling, they are not convinced yet. Maybe they just need a little more trust coming from your company. Showcasing logo of client or testimonials is a good way to build trust.</small></p>
+                <p><small>If they are scrolling, they are not convinced yet. Maybe they just need a little more trust coming from your company. Showcasing logos of clients or testimonials is a good way to build trust.</small></p>
             </div>
         </div>
         <div className="row">
@@ -92,7 +92,7 @@ const LandingPageFramework = () => {
         <div className="row pt-4 pb-4">
             <div className="col-md-8 m-auto text-center">
                 <h1>Remind them of their <u>problem</u> and how <u>painful</u> it is.</h1>
-                <p>We want to align their frame of mind to their problem. Ideally, we'd like them to realise that you are the solution!</p>
+                <p>We want to remind them of their problem. Ideally, we'd like them to realise that you are the solution!</p>
                 <button className="btn btn-success btn-lg">Test Our Product For Free</button>
             </div>
         </div>
@@ -122,7 +122,7 @@ const LandingPageFramework = () => {
 
             <div className="col-md-6 m-auto">
                 <h2>Show them how you are their <u>solution</u></h2>
-                <p>Tell them how you solve all the negative point mentioned above.</p>
+                <p>Tell them how you solve all the cons mentioned above.</p>
                 <ul className="list-unstyled">
                     <li><span role="img" aria-label="check">✅ </span> Here is how we solve your problem</li>
                     <li><span role="img" aria-label="check">✅ </span> Here is how we solve your problem</li>
@@ -177,8 +177,8 @@ const LandingPageFramework = () => {
     <div className="container-fluid pt-5 pb-5">
         <div className="row pe-md-5 ps-md-5 ">
             <div className="col-md-8 offset-md-2 col-12 pb-3 text-center">
-                <h2>Here is why our client <u>love us</u></h2>
-                <p>Ideally, have client testimonial here. Build more trust with your visitors. Put your client logo again.</p>
+                <h2>Here is why our clients <u>love us</u></h2>
+                <p>Ideally, have client testimonials here. Build more trust with your visitors. Put your client logos again.</p>
             </div>
 
             <div className="col-md-6 m-auto pb-3">
@@ -191,7 +191,7 @@ const LandingPageFramework = () => {
 
             <div className="col-md-6 m-auto pb-3">
                 <img className="img img-fluid rounded w-75 pb-2" alt="placeholder" src={Placeholder} />
-                <h4>We've saved <u>$$$</u> in the first <u>4 week</u> [Results+Time]</h4>
+                <h4>We've saved <u>$$$</u> in the first <u>4 weeks</u> [Results+Time]</h4>
                 <p className="pb-0 mb-0">John Smith</p>
                 <p><small className="text-muted">Job Title - Company</small></p>
             </div>
@@ -235,7 +235,7 @@ const LandingPageFramework = () => {
         <div className="row pt-4 pb-4">
             <div className="col-md-6 m-auto">
                 <h1 className="text-white"><u>Alternative CTA</u> for the sceptics</h1>
-                <p>This section is for visitors who are not convinced about your product/service. The goal is to capture them by providing them with an alternative CTA. Something like download e-book, free webinar.</p>
+                <p>This section is for visitors who are not convinced about your product/service. The goal is to capture them by providing them with an alternative CTA, for example "download e-book, free webinar, etc.".</p>
 
                 <button className="btn btn-success btn-lg mb-3">Alternative CTA</button>
             </div>
