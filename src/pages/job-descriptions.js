@@ -25,7 +25,7 @@ const ToolPage = () => {
                 title="Job Description Templates"
                 color="3"
                 p1="You will notice as your startup grows, hiring becomes one of your main activities."
-                p2="Hiring the right person starts with crafting a job description capable of attracting your top candidates. Below are job descriptions for tech roles, feel free to copy and paste and change the description as you like."
+                p2="Hiring the right person starts with crafting a job description capable enough attracting your top candidates. Below are job descriptions for tech roles - feel free to copy, paste and change the description as you like."
                 btn2text="Google Doc"
                 btn2link="https://docs.google.com/document/d/1mFd8qY8_0JuEuHnJ7zEBHSjV-gxKkhpwqnnTa2slB0I/edit"
 >
