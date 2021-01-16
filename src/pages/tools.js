@@ -59,12 +59,46 @@ const ToolPage = () => {
 >
                 </Header>
 
+                <nav class=" d-md-none navbar sticky-top navbar-expand-lg navbar-light bg-trensparent bg-white">
+  <div class="container-fluid">
+    <a class="navbar-brand " href="#">Table of content</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+        <a className="nav-link text-2-dark plain-hover-2" href="#analytics">Analytics Tools</a>
+        </li>
+        <li class="nav-item">
+        <a className="nav-link text-2-dark plain-hover-2" href="#social">Social Media Tools</a>
+        </li>
+        <li class="nav-item">
+        <a className="nav-link text-2-dark plain-hover-2" href="#seo">SEO/Content Tools</a>
+        </li>
+        <li class="nav-item">
+        <a className="nav-link text-2-dark plain-hover-2" href="#video">Video Tools</a>
+        </li>
+        <li class="nav-item">
+        <a className="nav-link text-2-dark plain-hover-2" href="#designer">Designer Tools</a>
+        </li>
+        <li class="nav-item">
+        <a className="nav-link text-2-dark plain-hover-2" href="#email">Email Marketing Tools</a>
+        </li>
+        <li class="nav-item">
+        <a href="https://www.buymeacoffee.com/hugorichard" target="blank" className="btn btn-2 mt-3">Coffee? <span role="img" aria-label="coffee emoji">☕️</span></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
     <div className="container pt-5 pb-5">
         <div  className="row">
 
 
             <div id="explore" className="col-md-3 mb-3">
-                <nav  className="nav flex-column sticky-top">
+                <nav  className="nav flex-column sticky-top d-none d-md-block">
                     <a className="nav-link text-2-dark plain-hover-2" href="#analytics">Analytics Tools</a>
                     <a className="nav-link text-2-dark plain-hover-2" href="#social">Social Media Tools</a>
                     <a className="nav-link text-2-dark plain-hover-2" href="#seo">SEO/Content Tools</a>

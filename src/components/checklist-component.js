@@ -7,7 +7,7 @@ class Checklist extends React.Component {
     render() {
       return (
         <div>
-        <div id={this.props.id} className="card bg-3 rounded border-0 p-md-3 mb-5 shadow send-to-front">
+        <div id={this.props.id} className="card bg-3 rounded border-0 p-md-3 mb-5 shadow">
             <div className="card-body">
                 <h3><span role="img" aria-label="emoji">{this.props.emoji}</span></h3>
                 <h5 className="card-title text-3-dark">{this.props.title}</h5>

@@ -30,24 +30,62 @@ const ToolPage = () => {
                 btn2link="https://docs.google.com/document/d/1mFd8qY8_0JuEuHnJ7zEBHSjV-gxKkhpwqnnTa2slB0I/edit"
 >
                 </Header>
+                <nav class=" d-md-none navbar sticky-top navbar-expand-lg navbar-light bg-trensparent bg-white">
+  <div class="container-fluid">
+    <a class="navbar-brand " href="#">Table of content</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+        <a className="nav-link text-3-dark plain-hover-3" href="#frontenddev">Frontend Developer</a>
+        </li>
+        <li class="nav-item">
+        <a className="nav-link text-3-dark plain-hover-3" href="#datascientist">Data Scientist</a>
+        </li>
+        <li class="nav-item">
+        <a className="nav-link text-3-dark plain-hover-3" href="#fullstack">Fullstack Engineer</a>
+        </li>
+        <li class="nav-item">
+        <a className="nav-link text-3-dark plain-hover-3" href="#productmanager">Product Manager</a>
+        </li>
+        <li class="nav-item">
+        <a className="nav-link text-3-dark plain-hover-3" href="#qa">QA Engineer</a>
+        </li>
+        <li class="nav-item">
+        <a className="nav-link text-3-dark plain-hover-3" href="#android">Android Engineer</a>
+        </li>
+        <li class="nav-item">
+        <a className="nav-link text-3-dark plain-hover-3" href="#ios">IOS Engineer</a>
+        </li>
+        <li class="nav-item">
+        <a href="https://www.buymeacoffee.com/hugorichard" target="blank" className="btn btn-3 mt-3">Coffee? <span role="img" aria-label="coffee emoji">☕️</span></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
     <div className="container pt-5 pb-5">
         <div  className="row">
-
+     
 
             <div id="explore" className="col-md-3 mb-3">
-                <nav  className="nav flex-column sticky-top">
-                <a class="nav-link text-3-dark plain-hover-3" href="#backenddev">Backend Developer</a>
-                    <a class="nav-link text-3-dark plain-hover-3" href="#frontenddev">Frontend Developer</a>
-                    <a class="nav-link text-3-dark plain-hover-3" href="#datascientist">Data Scientist</a>
-                    <a class="nav-link text-3-dark plain-hover-3" href="#fullstack">Fullstack Engineer</a>
-                    <a class="nav-link text-3-dark plain-hover-3" href="#productmanager">Product Manager</a>
-                    <a class="nav-link text-3-dark plain-hover-3" href="#qa">QA Engineer</a>
-                    <a class="nav-link text-3-dark plain-hover-3" href="#android">Android Engineer</a>
-                    <a class="nav-link text-3-dark plain-hover-3" href="#ios">IOS Engineer</a>
+                <nav  className="nav flex-column sticky-top d-none d-md-block">
+                <a className="nav-link text-3-dark plain-hover-3" href="#backenddev">Backend Developer</a>
+                    <a className="nav-link text-3-dark plain-hover-3" href="#frontenddev">Frontend Developer</a>
+                    <a className="nav-link text-3-dark plain-hover-3" href="#datascientist">Data Scientist</a>
+                    <a className="nav-link text-3-dark plain-hover-3" href="#fullstack">Fullstack Engineer</a>
+                    <a className="nav-link text-3-dark plain-hover-3" href="#productmanager">Product Manager</a>
+                    <a className="nav-link text-3-dark plain-hover-3" href="#qa">QA Engineer</a>
+                    <a className="nav-link text-3-dark plain-hover-3" href="#android">Android Engineer</a>
+                    <a className="nav-link text-3-dark plain-hover-3" href="#ios">IOS Engineer</a>
                     <a href="https://www.buymeacoffee.com/hugorichard" target="blank" className="btn btn-3 mt-3">Coffee? <span role="img" aria-label="coffee emoji">☕️</span></a>
 
                 </nav>
+
+
             </div>
             <div className="col-md-9 ">
                  <div className="row">
