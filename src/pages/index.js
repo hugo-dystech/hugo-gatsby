@@ -358,7 +358,7 @@ const IndexPage = () => {
 
                         </div>
                         <div className="card-body">
-                            <p>The largest regional startup accelerator in Australia
+                            <p>The largest regional startup accelerator in Australia.
                             </p>
                         </div>
 
@@ -377,17 +377,17 @@ const IndexPage = () => {
             </div>
             <div className=" col-md-6 mt-3 mb-3">
                 <h2 className="text-white">Value Proposition Positioning</h2>
-                <p>Understanding, clarifying, and positioning your value proposition in a way that customer care.</p>
+                <p>Understand, clarify, and position your value proposition to set you up for success.</p>
             </div>
 
             <div className=" col-md-6 mt-3 mb-3">
                 <h2 className="text-white">Marketing Automations</h2>
-                <p>Developing and implementing smart marketing practices to make your target audience aware of your business and get them to your (virtual) door</p>
+                <p>Develop and implement smart marketing practices to enlighten your target audience of your business and get them to your (virtual) door</p>
             </div>
 
             <div className=" col-md-6 mt-3 mb-3">
                 <h2 className="text-white">Sales Processes</h2>
-                <p>Creating sales processes and practices you can repeat and be proud of that convert your target audience's interest into sales</p>
+                <p>Create sales processes and practices to convert your target audience's interest into sales.</p>
             </div>
 
             <div className=" col-md-6 mt-3 mb-3">
