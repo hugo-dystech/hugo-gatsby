@@ -25,7 +25,6 @@ class Head extends React.Component {
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff"/>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-    {/* <script src="https://cdnjs.cloudflare.com/ajax/libs/zenscroll/4.0.2/zenscroll-min.js"></script> */}
 
                 </Helmet>
     )
