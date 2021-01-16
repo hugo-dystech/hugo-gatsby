@@ -53,8 +53,8 @@ const ToolPage = () => {
                 <Header
                 title="Growth tools repository"
                 color="2"
-                p1="A big collection of over 60+ of my favourite marketing tools which have I've personally used for various startups & eCommerce companies for growth."
-                p2=" Ranging from analytics to video & design, I tried to list all the tools I have used and (want to try out)."
+                p1="A big collection of over 60+ of my favourite marketing tools for startups & eCommerce companies for growth."
+                p2="Ranging from analytics to video & design, I have tried to list all the tools I have used and want to try out."
                 p3="I will keep this content fresh and updated as much as I can."
 >
                 </Header>
