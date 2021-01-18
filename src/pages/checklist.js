@@ -25,7 +25,8 @@ const ChecklistPage = () => {
                 title="Save time with checklists"
                 color="3"
                 p1="It is common to misconceive how checklists function in complex lines of work."
-                p2="They are not comprehensive how-to guides. They are quick and simple tools aimed to buttress the skills of expert professionals, whether for building a skyscraper or getting a plane out of trouble."
+                p2="They are not comprehensive how-to guides. They are quick and simple tools aimed to buttress the skills of expert professionals."
+                p3="Whether you're building a skyscraper, getting a plane out of trouble or launching a new product; the knowledge is within you. Checklists just help you get there efficiently."
                     >
                 </Header>
 
