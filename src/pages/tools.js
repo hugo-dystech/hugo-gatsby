@@ -367,7 +367,7 @@ const ToolPage = () => {
                         toolName="Good Email Copy"
                         toolDesc="I have been using Hubspot for a while now. Cool thing is that they have tons of email templates."
                         website="https://www.hubspot.com/"
-                        badgeAdvanced
+                        badgeEasy
                         ></ToolCard>
 
                         <ToolCard 
@@ -375,7 +375,7 @@ const ToolPage = () => {
                         toolName="HTML Email"
                         toolDesc="Fully responsive html email templates for startups. Saving yourself the pain of coding HTML email."
                         website="https://htmlemail.io/"
-                        badgeAdvanced
+                        badgeEasy
                         ></ToolCard>
 
 </div>
