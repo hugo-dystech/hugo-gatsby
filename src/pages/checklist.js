@@ -30,30 +30,30 @@ const ChecklistPage = () => {
                     >
                 </Header>
 
-                <nav class=" d-md-none navbar sticky-top navbar-expand-lg navbar-light bg-trensparent bg-white">
-  <div class="container-fluid">
-    <a class="navbar-brand " href="#">Table of content</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+                <nav className=" d-md-none navbar sticky-top navbar-expand-lg navbar-light bg-trensparent bg-white">
+  <div className="container-fluid">
+    <a className="navbar-brand " href="#">Table of content</a>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
+    <div className="collapse navbar-collapse" id="navbarNav">
+      <ul className="navbar-nav">
+        <li className="nav-item">
         <a className="nav-link text-3-dark plain-hover-3" href="#blogpost">Blog post</a>
         </li>
-        <li class="nav-item">
+        <li className="nav-item">
         <a className="nav-link text-3-dark plain-hover-3" href="#uxcopy">UX Copy</a>
         </li>
-        <li class="nav-item">
+        <li className="nav-item">
         <a className="nav-link text-3-dark plain-hover-3" href="#startupidea">Startup Idea</a>
         </li>
-        <li class="nav-item">
+        <li className="nav-item">
         <a className="nav-link text-3-dark plain-hover-3" href="#productlaunch">Product Launch</a>
         </li>
-        <li class="nav-item">
+        <li className="nav-item">
         <a className="nav-link text-3-dark plain-hover-3" href="#gotomarket">Go-to-market</a>
         </li>
-        <li class="nav-item">
+        <li className="nav-item">
         <a href="https://www.buymeacoffee.com/hugorichard" target="blank" className="btn btn-3 mt-3">Coffee? <span role="img" aria-label="coffee emoji">☕️</span></a>
         </li>
       </ul>
@@ -65,15 +65,15 @@ const ChecklistPage = () => {
         <div  className="row">
 
 
-            <div id="explore" className="col-md-3 mb-3 send-to-back">
+            <div id="explore" className="col-md-3 mb-3">
                 <nav  className="nav flex-column sticky-top d-none d-md-block">
                     <a className="nav-link text-3-dark plain-hover-3" href="#blogpost">Blog post</a>
                     <a className="nav-link text-3-dark plain-hover-3" href="#uxcopy">UX Copy</a>
                     <a className="nav-link text-3-dark plain-hover-3" href="#startupidea">Startup Idea</a>
                     <a className="nav-link text-3-dark plain-hover-3" href="#productlaunch">Product Launch</a>
                     <a className="nav-link text-3-dark plain-hover-3" href="#gotomarket">Go-to-market</a>
-                    <p className="nav-link text-warning">More coming <div class="spinner-border spinner-border-sm ms-1 mb-1" role="status">
-  <span class="visually-hidden">Loading...</span>
+                    <p className="nav-link text-warning">More coming <div className="spinner-border spinner-border-sm ms-1 mb-1" role="status">
+  <span className="visually-hidden">Loading...</span>
 </div></p>
                     <a href="https://www.buymeacoffee.com/hugorichard" target="blank" className="btn btn-3 mt-3">Coffee? <span role="img" aria-label="coffee emoji">☕️</span></a>
 
