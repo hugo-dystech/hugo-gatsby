@@ -67,7 +67,6 @@ const ToolPage = () => {
 
     <div className="container pt-5 pb-5">
         <div  className="row">
-
         <SecondNav
 color="2"
 item1="Analytics tools"
