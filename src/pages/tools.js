@@ -37,6 +37,8 @@ import Sproutsocial from "../images/logo/sproutsocial.png"
 import Streamyard from "../images/logo/streamyard.jpg"
 import Tribe from "../images/logo/tribe.png"
 import Videoask from "../images/logo/videoask.jpg"
+import GoogleData from "../images/logo/google-data-studio.svg"
+import FullStory from "../images/logo/fullstory.jpg"
 
 const ToolPage = () => {
     return (
@@ -122,6 +124,14 @@ const ToolPage = () => {
                         badgeEasy
                         ></ToolCard>
 
+                        <ToolCard 
+                        src={GoogleData}
+                        toolName="Google Data Studio"
+                        toolDesc="I am using GDS for Metrics/KPI dashbaord. Super easy way to have quick access to measurement that matter."
+                        website="https://datastudio.google.com/"
+                        badgeAdvanced
+                        ></ToolCard>
+
 
                         <ToolCard 
                         src={Ga}
@@ -154,6 +164,14 @@ const ToolPage = () => {
                         toolDesc="Do you want to know how your website perform compared to your competitor? This is it."
                         website="https://www.semrush.com/"
                         badgeEasy
+                        ></ToolCard>
+
+                        <ToolCard 
+                        src={FullStory}
+                        toolName="Fullstory"
+                        toolDesc="Similar to Hotjar, but much more advanced. Monitor your users and reliably understand your UX."
+                        website="https://www.fullstory.com/"
+                        badgeAdvanced
                         ></ToolCard>
 
 
