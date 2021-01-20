@@ -5,6 +5,8 @@ import Layout from "../components/layout"
 import ToolCard from "../components/tool-card"
 // Import the meta description in the head
 import Head from "../components/head"
+// Import secondary Navigation
+import SecondNav from "../components/secondary-nav"
 // Import header section component
 import Header from "../components/header"
 // Start importing tool logo
@@ -66,19 +68,22 @@ const ToolPage = () => {
     <div className="container pt-5 pb-5">
         <div  className="row">
 
+        <SecondNav
+color="2"
+item1="Analytics tools"
+id1="analytics"
+item2="Social Media Tools"
+id2="social"
+item3="SEO/Content Tools"
+id3="seo"
+item4="Video Tools"
+id4="video"
+item5="Designer Tools"
+id5="designer"
+item6="Email Marketing Tools"
+id6="email"
+/>
 
-            <div id="explore" className="col-md-3 mb-3">
-                <nav  className="nav flex-column sticky-top">
-                    <a className="nav-link text-2-dark plain-hover-2" href="#analytics">Analytics Tools</a>
-                    <a className="nav-link text-2-dark plain-hover-2" href="#social">Social Media Tools</a>
-                    <a className="nav-link text-2-dark plain-hover-2" href="#seo">SEO/Content Tools</a>
-                    <a className="nav-link text-2-dark plain-hover-2" href="#video">Video Tools</a>
-                    <a className="nav-link text-2-dark plain-hover-2" href="#designer">Designer Tools</a>
-                    <a className="nav-link text-2-dark plain-hover-2" href="#email">Email Marketing Tools</a>
-                    <a href="https://www.buymeacoffee.com/hugorichard" target="blank" className="btn btn-2 mt-3">Coffee? <span role="img" aria-label="coffee emoji">☕️</span></a>
-
-                </nav>
-            </div>
             <div className="col-md-9 ">
                  <div className="row">
                  <h2 id="analytics" className="mb-5 bg-2 p-3 rounded-3">Analytics Tools</h2>

@@ -6,6 +6,7 @@ import Head from "../components/head"
 import Header from "../components/header"
 import Checklist from "../components/checklist-component"
 import Layout from "../components/layout"
+import SecondNav from "../components/secondary-nav"
 
 
 
@@ -33,22 +34,23 @@ const ChecklistPage = () => {
     <div className="container pt-5 pb-5">
         <div  className="row">
 
+<SecondNav
+color="3"
+item1="Blog Post"
+id1="blogpost"
+item2="UX Copy"
+id2="uxcopy"
+item3="Startup Idea"
+id3="startupidea"
+item4="Product Launch"
+id4="productlaunch"
+item5="Go-to-market"
+id5="gotomarket"
+loading="More coming"
 
-            <div id="explore" className="col-md-3 mb-3">
-                <nav  className="nav flex-column sticky-top">
-                    <a className="nav-link text-3-dark plain-hover-3" href="#blogpost">Blog post</a>
-                    <a className="nav-link text-3-dark plain-hover-3" href="#uxcopy">UX Copy</a>
-                    <a className="nav-link text-3-dark plain-hover-3" href="#startupidea">Startup Idea</a>
-                    <a className="nav-link text-3-dark plain-hover-3" href="#productlaunch">Product Launch</a>
-                    <a className="nav-link text-3-dark plain-hover-3" href="#gotomarket">Go-to-market</a>
-                    <p className="nav-link text-warning">More coming <div className="spinner-border spinner-border-sm ms-1 mb-1" role="status">
-  <span className="visually-hidden">Loading...</span>
-</div></p>
-                    <a href="https://www.buymeacoffee.com/hugorichard" target="blank" className="btn btn-3 mt-3">Coffee? <span role="img" aria-label="coffee emoji">☕️</span></a>
+/>
 
-                </nav>
-            </div>
-            <div className="col-md-9 ">
+            <div className="col-lg-9 "> 
                  <div className="row">
 
 <Checklist
@@ -148,8 +150,8 @@ tip4_1="Have your content publication date in a calendar, very helpful."
             </div>
 
     </div>
+    </div>
   
-              </div>
   </Layout>
     )
   }

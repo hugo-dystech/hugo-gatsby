@@ -7,6 +7,8 @@ import Jobdescription from "../components/job-descriptions"
 import Head from "../components/head"
 // Import header section component
 import Header from "../components/header"
+// Import secondary Navigation
+import SecondNav from "../components/secondary-nav"
 
 
 
@@ -33,24 +35,29 @@ const ToolPage = () => {
 
     <div className="container pt-5 pb-5">
         <div  className="row">
+
+
+        <SecondNav
+color="3"
+item1="Bakcned Developer"
+id1="backenddev"
+item2="Frontend Developer"
+id2="frontenddev"
+item3="Data Scientist"
+id3="datascientist"
+item4="Fullstack Developer"
+id4="fullstack"
+item5="Product Manager"
+id5="productmanager"
+item6="QA Engineer"
+id6="qa"
+item7="Android Engineer"
+id7="android"
+item8="iOS Engineer"
+id8="ios"
+/>
      
 
-            <div id="explore" className="col-md-3 mb-3">
-                <nav  className="nav flex-column sticky-top">
-                <a className="nav-link text-3-dark plain-hover-3" href="#backenddev">Backend Developer</a>
-                    <a className="nav-link text-3-dark plain-hover-3" href="#frontenddev">Frontend Developer</a>
-                    <a className="nav-link text-3-dark plain-hover-3" href="#datascientist">Data Scientist</a>
-                    <a className="nav-link text-3-dark plain-hover-3" href="#fullstack">Fullstack Engineer</a>
-                    <a className="nav-link text-3-dark plain-hover-3" href="#productmanager">Product Manager</a>
-                    <a className="nav-link text-3-dark plain-hover-3" href="#qa">QA Engineer</a>
-                    <a className="nav-link text-3-dark plain-hover-3" href="#android">Android Engineer</a>
-                    <a className="nav-link text-3-dark plain-hover-3" href="#ios">IOS Engineer</a>
-                    <a href="https://www.buymeacoffee.com/hugorichard" target="blank" className="btn btn-3 mt-3">Coffee? <span role="img" aria-label="coffee emoji">☕️</span></a>
-
-                </nav>
-
-
-            </div>
             <div className="col-md-9 ">
                  <div className="row">
 
@@ -272,7 +279,7 @@ nice2="Experience building, maintaining, or otherwise contributing to open-sourc
 <Jobdescription
 id="ios"
 emoji="🍏"
-jobtitle="IOS Engineer"
+jobtitle="iOS Engineer"
 mission1="Engage in hands-on developement using Objective-C and Swift along with XCode and CocoaPods, maintaining and evolving the product specifications, design implementations, to rapidly deliver features for current and future needs in order to develop highly innovative, consumer-facing mobile products, while supporting the product roadmap"
 mission2="Mind performance metrics to draw conclusions and drive change"
 mission3="Contribute technical ideas and suggestions to enhance the direction of the product"
