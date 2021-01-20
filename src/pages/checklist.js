@@ -30,43 +30,12 @@ const ChecklistPage = () => {
                     >
                 </Header>
 
-                <nav className=" d-md-none navbar sticky-top navbar-expand-lg navbar-light bg-trensparent bg-white">
-  <div className="container-fluid">
-    <a className="navbar-brand " href="#">Table of content</a>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
-    <div className="collapse navbar-collapse" id="navbarNav">
-      <ul className="navbar-nav">
-        <li className="nav-item">
-        <a className="nav-link text-3-dark plain-hover-3" href="#blogpost">Blog post</a>
-        </li>
-        <li className="nav-item">
-        <a className="nav-link text-3-dark plain-hover-3" href="#uxcopy">UX Copy</a>
-        </li>
-        <li className="nav-item">
-        <a className="nav-link text-3-dark plain-hover-3" href="#startupidea">Startup Idea</a>
-        </li>
-        <li className="nav-item">
-        <a className="nav-link text-3-dark plain-hover-3" href="#productlaunch">Product Launch</a>
-        </li>
-        <li className="nav-item">
-        <a className="nav-link text-3-dark plain-hover-3" href="#gotomarket">Go-to-market</a>
-        </li>
-        <li className="nav-item">
-        <a href="https://www.buymeacoffee.com/hugorichard" target="blank" className="btn btn-3 mt-3">Coffee? <span role="img" aria-label="coffee emoji">☕️</span></a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
     <div className="container pt-5 pb-5">
         <div  className="row">
 
 
             <div id="explore" className="col-md-3 mb-3">
-                <nav  className="nav flex-column sticky-top d-none d-md-block">
+                <nav  className="nav flex-column sticky-top">
                     <a className="nav-link text-3-dark plain-hover-3" href="#blogpost">Blog post</a>
                     <a className="nav-link text-3-dark plain-hover-3" href="#uxcopy">UX Copy</a>
                     <a className="nav-link text-3-dark plain-hover-3" href="#startupidea">Startup Idea</a>

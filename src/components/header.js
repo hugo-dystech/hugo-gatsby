@@ -20,7 +20,7 @@ class Header extends React.Component {
                     {this.props.list3 != null ? <li>{this.props.list3}</li> : null}
                 </ul> : null}
                {this.props.btn != null ? null : <a className={"btn-" + this.props.color + " btn btn-lg"} href="#explore">{this.props.btn1text != null ? this.props.btn1text : "Explore"}</a>}
-                {this.props.btn2text != null ? <a className={"btn-outline-" +this.props.color + " ms-2 btn btn-lg"} target="blank" href={this.props.btn2link}>{this.props.btn2text}</a> : null}
+                {this.props.btn2text != null ? <a className={"btn-outline-" +this.props.color + " ms-sm-2 mt-2 mt-sm-0 btn btn-lg"} target="blank" href={this.props.btn2link}>{this.props.btn2text}</a> : null}
             {this.props.coffee != null ? <a href="https://www.buymeacoffee.com/hugorichard" target="blank" className={"btn btn-" + this.props.color + " mt-3"}>Coffee? <span role="img" aria-label="coffee emoji">☕️</span></a> : null}
             </div>
         </div>
