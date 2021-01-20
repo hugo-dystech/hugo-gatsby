@@ -6,7 +6,6 @@ import { Link } from "gatsby"
 export default function Nav () {
     return (
       <nav id="top" className="navbar navbar-expand-lg navbar-light bg-light pe-lg-5 ps-lg-5">
-<a href="#top" id="totop" class="btn btn-dark" title="Go to top">Top</a>
       <div className="container-fluid">
           <Link className="navbar-brand" to="/">Hugo Richard</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
