@@ -7,7 +7,7 @@ class Header extends React.Component {
 
         return (
 <div className={"bg-" + this.props.color + " container-fluid pb-5 pt-5 text-white"}>
-        <div className="row ps-5 pe-5">
+        <div className="row ps-md-5 pe-md-5">
             <div className="col-md-8 m-auto pb-5 pb-md-0 pt-5 pt-md-0">
                 <h1 className={"text-" + this.props.color + "-dark"}>{this.props.title}</h1>
                 {this.props.p1 != null ? <p>{this.props.p1}</p> : null}
