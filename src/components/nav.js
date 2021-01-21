@@ -49,7 +49,7 @@ export default function Nav () {
               </ul>
               <ul className="navbar-nav ms-auto">
                   <li className="nav-item">
-                  <span role="img" aria-label="pin emoji" >&#128205;</span> Melbourne - Australia
+                Melbourne - Australia
                   </li>
               </ul>
           </div>
