@@ -374,7 +374,7 @@ const IndexPage = () => {
                 <h1 className="text-3-dark">How can I help?</h1>
             </div>
             <div className=" col-md-12 mt-3 mb-3 text-center">
-              <h3>Activation &#8594; Retenion &#8594; Monetisation</h3>
+              <h3>Activation &#8594; Retention &#8594; Monetisation</h3>
               <p className="text-center text-3-dark">While making <u>tech for good</u>.</p>
             </div>
         </div>
