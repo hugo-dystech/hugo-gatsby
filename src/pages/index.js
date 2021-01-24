@@ -368,14 +368,14 @@ const IndexPage = () => {
             </div>
         </div>
     </div>
-    <div id="help" className="container-fluid pt-5 pb-5 bg-dark">
-        <div className="row ps-md-5 pe-md-5  pt-5 pb-5 text-white">
+    <div id="help" className="container-fluid pt-5 pb-5 bg-3">
+        <div className="row ps-md-5 pe-md-5  pt-5 pb-5 text-3-dark">
             <div className="col-12 text-center">
-                <h1 className="text-white">How can I help?</h1>
+                <h1 className="text-3-dark">How can I help?</h1>
             </div>
             <div className=" col-md-12 mt-3 mb-3 text-center">
               <h3>Activation &#8594; Retenion &#8594; Monetisation</h3>
-              <p className="text-center">While making <u>tech for good</u>.</p>
+              <p className="text-center text-3-dark">While making <u>tech for good</u>.</p>
             </div>
         </div>
 
