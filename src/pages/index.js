@@ -373,25 +373,9 @@ const IndexPage = () => {
             <div className="col-12 text-center">
                 <h1 className="text-white">How can I help?</h1>
             </div>
-            <div className=" col-md-6 mt-3 mb-3">
-                <h2 className="text-white">Value Proposition Positioning</h2>
-                <p>Understand, clarify, and position your value proposition to set you up for success.</p>
-            </div>
-
-            <div className=" col-md-6 mt-3 mb-3">
-                <h2 className="text-white">Marketing Automations</h2>
-                <p>Develop and implement smart marketing practices to enlighten your target audience of your business and get them to your (virtual) door</p>
-            </div>
-
-            <div className=" col-md-6 mt-3 mb-3">
-                <h2 className="text-white">Sales Processes</h2>
-                <p>Create sales processes and practices to convert your target audience's interest into sales.</p>
-            </div>
-
-            <div className=" col-md-6 mt-3 mb-3">
-                <h2 className="text-white">Integrating Operations</h2>
-                <p>The most expensive car parts don't do much on their own. It's how they are integrated that matters most. The parts of your business are the same, and I can help you engineer the best integration for the best results.
-                </p>
+            <div className=" col-md-12 mt-3 mb-3 text-center">
+              <h3>Activation &#8594; Retenion &#8594; Monetisation</h3>
+              <p className="text-center">While making <u>tech for good</u>.</p>
             </div>
         </div>
 
