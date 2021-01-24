@@ -22,7 +22,7 @@ const IndexPage = () => {
               <div className="container-fluid pb-5 pt-5">
         <div className="row ps-md-5 pe-md-5 ">
             <div className="col-12 col-md-6 m-auto pb-5 pb-md-0 pt-5 ps-5 pe-5 pt-md-0">
-                <h1>Growth hacker, entrepreneur &amp; maker</h1>
+                <h1>I help <u>people</u> make better <u>startups</u>.</h1>
                 <p> I live and breathe startups, and I have worked in 3 different countries in 2 continents over the last 6 years. I have good experience in marketing & growth with SaaS startups and I am a firm believer in profit for purpose.</p>
                 <p><Link className="fs-5 text-dark text-decoration-none plain-hover-black" to="mailto:zhugok@gmail.com"><strong>Let's talk <span role="img" aria-label="send email">&#128073;</span></strong></Link></p>
                 <Link to="https://www.linkedin.com/in/hugorichard/" target="blank"> <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" className="bi bi-linkedin" viewBox="0 0 16 16">
@@ -71,7 +71,7 @@ const IndexPage = () => {
                 </ul>
 
             </div>
-            <Link className="navbar-brand " to="mailto:zhugok@gmail.com">Let's talk <span role="img" aria-label="send email">&#128073;</span></Link>
+            <Link className="navbar-brand plain-hover-black" to="mailto:zhugok@gmail.com">Let's talk <span role="img" aria-label="send email">&#128073;</span></Link>
 
         </div>
     </nav>
@@ -177,12 +177,10 @@ const IndexPage = () => {
                         <h2 className="text-3-dark">Startup Metrics</h2>
                     </div>
                     <div className="card-body text-3-dark">
-                        <p>What should you measure? What are metrics anyway? A beginner guide to metrics that matter for SaaS startups.</p>
+                        <p>A beginner guide to metrics for SaaS startups. Metrics play an important role in the success of your startup.</p>
                     </div>
                     <div className="card-footer mb-3 bg-transparent  border-0">
-                        <Link to="" className="fs-5 text-3-dark text-decoration-none plain-hover-3 disable"><strong>Coming soon <div class="spinner-border spinner-border-sm ms-1 mb-1" role="status">
-  <span class="visually-hidden">Loading...</span>
-</div></strong></Link>
+                        <Link className="fs-5 text-3-dark text-decoration-none plain-hover-3"><strong>Beginer Guide <small>Coming Soon</small> &#8594;</strong></Link>
 
                     </div>
                 </div>
@@ -229,8 +227,8 @@ const IndexPage = () => {
 
     <div id="startup" className="container-fluid pt-5 pb-5">
         <div className="row ps-md-5 pe-md-5  pb-5 pt-5">
-            <div className="row ps-md-5 pe-md-5  ">
-                <div className="col-12  col-md-6 pb-5">
+            <div className="row ps-md-5 pe-md-5 m-auto ">
+                <div className="col-12  col-lg-6 pb-5">
                     <h1>Startup life</h1>
 
                     <p>I have founded and managed 4 startups through the course of my career. The one I’m most proud of is Dystech, a SaaS platform to screen for the likelihood of dyslexia using AI. In my role as CEO ( Chief Everything Officer ), I have
@@ -239,7 +237,7 @@ const IndexPage = () => {
                         our credibility. But what I consider my biggest achievement is that Dystech has helped over 10,000 families by providing affordable and accessible screening for dyslexia.</p>
                     <p>Geom Chat, another startup I founded, developed chatbot interfaces for companies. The ingenuity behind Geom Chat led to me being invited as a paid speaker at an International AI conference in Sydney. <Link target="blank" to="https://youtu.be/5XNc0mZpNNw">Listen to it</Link></p>
                 </div>
-                <div className="col-12 col-md-6 bg-2 rounded d-inline-block">
+                <div className="col-12 col-lg-6 bg-2 rounded d-inline-block">
                     <div className="card bg-2 rounded border-0 mb-5">
                         <div className="card-header mt-3 bg-transparent  border-0">
                             <h2 >Dystech</h2>
@@ -297,8 +295,8 @@ const IndexPage = () => {
 
     <div id="professional" className="container-fluid pt-5 pb-5">
         <div className="row ps-md-5 pe-md-5  pb-5 pt-5">
-            <div className="row ps-md-5 pe-md-5  ">
-                <div className="col-12  col-md-6 pb-5">
+            <div className="row ps-md-5 pe-md-5 m-auto ">
+                <div className="col-12  col-lg-6 pb-5">
                     <h1>Professional life</h1>
 
                     <p>My role as a Growth marketer with Image Direct, a full stack agency ranging from Facebook &amp; Google ads to web design, taught me everything I know about digital growth. This includes metrics that matter, learning from the data collected
@@ -306,7 +304,7 @@ const IndexPage = () => {
                     <p>I have also been involved with isgood.ai, a non for profit organisation, as a growth hacker & now advisor working on their online presence to improve growth and clarify messaging.</p>
                     <p>In my role at Outfox The Market (UK) as a business analyst, I explored large businesses and their operating ecosystems, analysing gaps in their processes and curating potential solutions for improvement.</p>
                 </div>
-                <div className="col-12 col-md-6 bg-2 rounded d-inline-block">
+                <div className="col-12 col-lg-6 bg-2 rounded d-inline-block">
                     <div className="card  bg-transparent border-0 mb-5">
                         <div className="card-header mt-3 bg-transparent  border-0">
                             <h2 >Image Direct</h2>
