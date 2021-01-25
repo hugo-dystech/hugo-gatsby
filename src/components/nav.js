@@ -11,55 +11,33 @@ export default function Nav () {
           {/* <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           Resources
         </button> */}
-          <div className="collapse navbar-collapse" id="navbarNav">
+          <div className="" id="navbarNav">
               <ul className="navbar-nav ms-auto">
-              {/* <li className="nav-item">
-                          <Link className="nav-link text-wrap" to="/tools/">
-                              Tools
-                          </Link>
-                          </li>
-
-                          
-                          <li className="nav-item">
-                          <Link className="nav-link text-wrap" to="/landing-page-framework/">
-                              Landing Page Framework
-                          </Link>
-                          </li >
-                          <li className="nav-item">
-                          <Link className="nav-link text-wrap" to="/checklist/">
-                              Checklist
-                          </Link>
-                          </li>
-                          <li className="nav-item">
-                          <Link className="nav-link text-wrap" to="/job-descriptions/">
-                              Job Descriptions
-                          </Link>
-                          </li> */}
                   
                   <li className="nav-item dropdown">
                       <a className="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Resources
                       </a>
-                      <ul className="dropdown-menu end-100 text-wrap" aria-labelledby="dropdownMenuButton">
+                      <ul className="dropdown-menu dropdown-menu-end shadow-hover" aria-labelledby="dropdownMenuButton">
                           <li>
-                          <Link className="dropdown-item text-wrap" to="/tools/">
+                          <Link className="dropdown-item " to="/tools/">
                               Tools
                           </Link>
                           </li>
 
                           
                           <li>
-                          <Link className="dropdown-item text-wrap" to="/landing-page-framework/">
+                          <Link className="dropdown-item " to="/landing-page-framework/">
                               Landing Page Framework
                           </Link>
                           </li>
                           <li>
-                          <Link className="dropdown-item text-wrap" to="/checklist/">
+                          <Link className="dropdown-item " to="/checklist/">
                               Checklist
                           </Link>
                           </li>
                           <li>
-                          <Link className="dropdown-item text-wrap" to="/job-descriptions/">
+                          <Link className="dropdown-item " to="/job-descriptions/">
                               Job Descriptions
                           </Link>
                           </li>
