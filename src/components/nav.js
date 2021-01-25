@@ -5,13 +5,13 @@ import { Link } from "gatsby"
 
 export default function Nav () {
     return (
-      <nav id="top" className="navbar  navbar-expand-lg navbar-light bg-light pe-lg-5 ps-lg-5">
+      <nav id="top" className="navbar navbar-light bg-light pe-lg-5 ps-lg-5">
       <div className="container-fluid">
           <Link className="navbar-brand" to="/">Hugo Richard<br /> <small class="fs-6 text-muted">Melbourne - Australia</small></Link>
           {/* <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           Resources
         </button> */}
-          <div className="" id="navbarNav">
+          <div id="navbarNav">
               <ul className="navbar-nav ms-auto">
                   
                   <li className="nav-item dropdown">
