@@ -39,7 +39,7 @@ const ToolPage = () => {
 
         <SecondNav
 color="3"
-item1="Bakcned Developer"
+item1="Backend Developer"
 id1="backenddev"
 item2="Frontend Developer"
 id2="frontenddev"
