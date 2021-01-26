@@ -46,15 +46,15 @@ const IndexPage = () => {
 
                 <ul className="navbar-nav">
                     <li className="nav-item">
-                        <Link className="nav-link " to="#about">About me</Link>
+                        <Link className="nav-link " to="#about">About</Link>
                     </li>
 
                     <li className="nav-item">
-                        <Link className="nav-link " aria-current="page" to="#stuff">Cool stuff</Link>
+                        <Link className="nav-link " aria-current="page" to="#stuff">Ressources <span role="img" aria-label="send email">&#127805;</span></Link>
                     </li>
 
                     <li className="nav-item">
-                        <Link className="nav-link " aria-current="page" to="#pr">PR stuff</Link>
+                        <Link className="nav-link " aria-current="page" to="#pr">PR</Link>
                     </li>
 
                     <li className="nav-item">
@@ -191,7 +191,7 @@ const IndexPage = () => {
     <div id="pr" className="container-fluid pt-5 pb-5">
         <div className="row ps-md-5 pe-md-5  pb-5 pt-5">
             <div className="col-12 text-center">
-                <h1 className="pb-0">PR &amp; Speaking stuff</h1>
+                <h1 className="pb-0">PR &amp; Speaking</h1>
                 <p>Some public talks and TV interviews <span role="img" aria-label="funny emoji">😎</span></p>
             </div>
             <div className="col-md-4 text-center">
@@ -204,8 +204,7 @@ const IndexPage = () => {
             </div>
             <div className="col-md-4 text-center">
                 <img className="img-fluid w-50" src={webDirection} alt="web direction" />
-                <p>Speaker at
-                    <a href="https://www.webdirections.org/ai/speakers/hugo-richard.php" target="blank">Web Direction AI 2018 </a>
+                <p>Speaker at <a href="https://www.webdirections.org/ai/speakers/hugo-richard.php" target="blank">Web Direction AI 2018 </a>
                 </p>
                 <div className="ratio ratio-16x9">
 
