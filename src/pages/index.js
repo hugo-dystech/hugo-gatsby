@@ -19,7 +19,7 @@ const IndexPage = () => {
             description="I live and breathe startups, I worked in 3 different countries in 2 continents over the last 6 years. I help company growth, let's talk."
             keyword="hugo richard"
             ></Head>
-              <div className="container-fluid pb-5 pt-5">
+              <div className="container-fluid pb-5 pt-lg-0 pt-5">
         <div className="row ps-md-5 pe-md-5 ">
             <div className="col-12 col-md-6 m-auto pb-5 pb-md-0 pt-5 ps-5 pe-5 pt-md-0">
                 <h1>I help <u>people</u> make better <u>startups</u>.</h1>
