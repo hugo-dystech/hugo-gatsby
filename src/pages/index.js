@@ -180,7 +180,11 @@ const IndexPage = () => {
                         <p>A beginner guide to metrics for SaaS startups. Metrics play an important role in the success of your startup.</p>
                     </div>
                     <div className="card-footer mb-3 bg-transparent  border-0">
+<<<<<<< Updated upstream
                         <Link className="fs-5 text-3-dark text-decoration-none plain-hover-3"><strong>Beginer Guide <small>Coming Soon</small> &#8594;</strong></Link>
+=======
+                        <Link to="" className="fs-5 text-3-dark text-decoration-none plain-hover-3"><strong>Beginer Guide Coming soon &#8594;</strong></Link>
+>>>>>>> Stashed changes
 
                     </div>
                 </div>
