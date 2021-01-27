@@ -39,10 +39,10 @@ const IndexPage = () => {
     <nav id="innerNav" className="navbar shadow-sm navbar-expand-lg navbar-light bg-light sticky-lg-top pe-lg-5 ps-lg-5">
         <div className="container-fluid">
 
-            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#secondNav" aria-controls="secondNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
-            <div className="collapse navbar-collapse" id="secondNav">
+            <div className="collapse navbar-collapse" id="navbarNav">
 
                 <ul className="navbar-nav">
                     <li className="nav-item">
@@ -180,7 +180,7 @@ const IndexPage = () => {
                         <p>A beginner guide to metrics for SaaS startups. Metrics play an important role in the success of your startup.</p>
                     </div>
                     <div className="card-footer mb-3 bg-transparent  border-0">
-                        <Link to="/startup-metrics/" className="fs-5 text-3-dark text-decoration-none plain-hover-3"><strong>Beginer Guide &#8594;</strong></Link>
+                        <Link to="" className="fs-5 text-3-dark text-decoration-none plain-hover-3"><strong>Beginer Guide <small>Coming Soon</small> &#8594;</strong></Link>
 
                     </div>
                 </div>
