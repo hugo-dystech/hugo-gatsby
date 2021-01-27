@@ -207,22 +207,22 @@ const ToolPage = () => {
 
 <h3 id="cac">CAC (Cost of Acquisition)</h3>
 <p>The cost of acquisition is the total expense incurred in acquiring a new client or purchasing an asset.</p>
-<img src={CAC} alt="Cost Of Acquisition Equation" className="img img-fluid"/>
+<div><img src={CAC} alt="Cost Of Acquisition Equation" className="img img-fluid"/></div>
 
 <h3 id="clv">CLV (Customer Lifetime Value)
 </h3>
 <p>Customer Lifetime Value represents the total amount of money a customer is expected to spend in your business, or on your products, during their lifetime.</p>
-<img src={CLV} alt="Customer Lifetime Value Equation" className="img img-fluid"/>
+<div><img src={CLV} alt="Customer Lifetime Value Equation" className="img img-fluid"/></div>
 
 <h3 id="nps">NPS (Net promoter Score)
 </h3>
 <p>Net Promoter Score is the percentage of customers rating their likelihood to recommend a company, a product, or a service to a friend or colleague.</p>
-<img src={NPS} alt="Net promoter score equation" className="img img-fluid"/>
+<div><img src={NPS} alt="Net promoter score equation" className="img img-fluid"/></div>
 
 <h3 id="churn">Churn Rate
 </h3>
 <p>Churn rate is the percentage of your customers or subscribers who cancel or don't renew their subscriptions during a given time.</p>
-<img src={Churn} alt="Churn Rate Equation" className="img img-fluid"/>
+<div><img src={Churn} alt="Churn Rate Equation" className="img img-fluid"/></div>
 
 
 <h2 id="4" className="mb-5 bg-3 text-3-dark mt-5 p-3 rounded-3">
@@ -231,7 +231,7 @@ const ToolPage = () => {
               <p>Let’s discuss vanity metrics. Vanity metrics are metrics that make you look useful to others but do not help you understand your performance in a way that informs future strategies.</p>
             <p>Typical vanity metric in action: a massive spike in website visits in early August.
 </p>
-<img src={Visit} alt="Google Analytics Monthly Visit" className="img img-fluid" />
+<div><img src={Visit} alt="Google Analytics Monthly Visit" className="img img-fluid" /></div>
 <p>Great – more visits is good, right? And whatever we did in July must have made this happen, so let’s do way more of that and we can get an even more significant spike.
 </p>
 <p>This is how vanity metrics seduce you away from the measurements that matter. You can’t know from this graph what caused that spike – something you did? Something someone else did? Maybe you got some attention from an influencer, or a mention on a high-authority site – or perhaps something random and unrepeatable. That’s point one.</p>
