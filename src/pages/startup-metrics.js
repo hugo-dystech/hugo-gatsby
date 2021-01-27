@@ -137,6 +137,7 @@ const ToolPage = () => {
                 We are defining the conversion rate as a metric. As a formula a
                 metric can look like this:
               </p>
+              
               <p className="text-muted">
                 <i>measurement<sup>1</sup> + operation(-, *, /) + measurement
                 <sup>2</sup> = Metrics</i>
