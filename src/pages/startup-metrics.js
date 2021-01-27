@@ -126,10 +126,10 @@ const ToolPage = () => {
                 example, to create a ‘metric’ based on the two measurement
                 examples above, we would do the following:
               </p>
-              <math>
+              <p>
                 page views / number of emails collected = conversion rate (in
                 percentage)
-              </math>
+              </p>
 
               <p>
                 What does this formula mean? Let’s assume your conversion rate
@@ -137,10 +137,10 @@ const ToolPage = () => {
                 We are defining the conversion rate as a metric. As a formula a
                 metric can look like this:
               </p>
-              <math>
+              <p>
                 measurement<sup>1</sup> + operation(-,*,/) + measurement
                 <sup>2</sup> = Metrics
-              </math>
+              </p>
 
               <h2 id="2" className="mb-5 bg-3 text-3-dark mt-5 p-3 rounded-3">
                 2. Why are metrics important?
