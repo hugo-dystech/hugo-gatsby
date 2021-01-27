@@ -194,7 +194,7 @@ class Checklist extends React.Component {
                     </div>
                 </div> : null }
 
-                <a tabindex="0" role="button" className="btn btn-3 mt-3" >DONE 🚀</a>
+                <a tabindex="0" role="button" className="btn btn-3 mt-3" >DONE <span role="img" aria-label="rocket">🚀</span></a>
 </div>
 </div>
 </div>

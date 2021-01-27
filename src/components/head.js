@@ -4,6 +4,8 @@ import Fav32 from "../images/favicon-32x32.png"
 import Fav16 from "../images/favicon-16x16.png"
 import AppleTouch from "../images/apple-touch-icon.png"
 import FavTab from "../images/safari-pinned-tab.svg"
+import hugo from "../images/hugo-cover-3.jpeg"
+
 
 
 class Head extends React.Component {
@@ -18,6 +20,7 @@ class Head extends React.Component {
     <meta name="description" content={this.props.description} />
     <meta name="keywords" content={this.props.keyword} />
     <meta name="author" content="Hugo Richard" />
+    <meta property="og:image" content={hugo} />
     <link rel="apple-touch-icon" sizes="180x180" href={AppleTouch} />
     <link rel="icon" type="image/png" sizes="32x32" href={Fav32} />
     <link rel="icon" type="image/png" sizes="16x16" href={Fav16} />
