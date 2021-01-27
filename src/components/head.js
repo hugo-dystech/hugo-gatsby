@@ -4,7 +4,7 @@ import Fav32 from "../images/favicon-32x32.png"
 import Fav16 from "../images/favicon-16x16.png"
 import AppleTouch from "../images/apple-touch-icon.png"
 import FavTab from "../images/safari-pinned-tab.svg"
-import hugo from "../images/hugo-cover-3.jpeg"
+import hugo from "../images/hugo-richard-entrepreneur.jpeg"
 
 
 
