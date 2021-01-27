@@ -126,9 +126,9 @@ const ToolPage = () => {
                 example, to create a ‘metric’ based on the two measurement
                 examples above, we would do the following:
               </p>
-              <p>
-                page views / number of emails collected = conversion rate (in
-                percentage)
+              <p className="text-muted">
+                <i>page views / number of emails collected = conversion rate (in
+                percentage)</i>
               </p>
 
               <p>
@@ -137,9 +137,9 @@ const ToolPage = () => {
                 We are defining the conversion rate as a metric. As a formula a
                 metric can look like this:
               </p>
-              <p>
-                measurement<sup>1</sup> + operation(-,*,/) + measurement
-                <sup>2</sup> = Metrics
+              <p className="text-muted">
+                <i>measurement<sup>1</sup> + operation(-, *, /) + measurement
+                <sup>2</sup> = Metrics</i>
               </p>
 
               <h2 id="2" className="mb-5 bg-3 text-3-dark mt-5 p-3 rounded-3">
