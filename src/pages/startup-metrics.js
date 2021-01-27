@@ -5,6 +5,11 @@ import Layout from "../components/layout";
 import Head from "../components/head";
 // Import header section component
 import Header from "../components/header";
+import CAC from "../images/illustrations/CAC.jpg"
+import Churn from "../images/illustrations/Churn-Rate.jpg"
+import CLV from "../images/illustrations/CLV.jpg"
+import NPS from "../images/illustrations/NPS.jpg"
+import Visit from "../images/illustrations/Visits-vs-select-a-metric.jpg"
 
 const ToolPage = () => {
   return (
@@ -34,65 +39,11 @@ const ToolPage = () => {
         p3="I have over six years of experience with metrics. After going through this guide, you will understand metrics and get started in planning your success measurement!"
         btn1text="Let's Get Started"
       ></Header>
-      <nav className=" d-md-none navbar sticky-top navbar-expand-lg navbar-light bg-trensparent bg-white">
-        <div className="container-fluid">
-          <a className="navbar-brand " href="#">
-            Table of content
-          </a>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
-              <li className="nav-item">
-                <a className="nav-link text-3-dark plain-hover-3" href="#1">
-                  1. What's a metric?
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link text-3-dark plain-hover-3" href="#2">
-                  2. Why are metrics important?
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link text-3-dark plain-hover-3" href="#3">
-                  3. Metrics that matter
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link text-3-dark plain-hover-3" href="#4">
-                  4. Vanity Metrics
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  href="https://www.buymeacoffee.com/hugorichard"
-                  target="blank"
-                  className="btn btn-3 mt-3"
-                >
-                  Coffee?{" "}
-                  <span role="img" aria-label="coffee emoji">
-                    ☕️
-                  </span>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
 
       <div className="container pt-5 pb-5">
         <div className="row">
-          <div id="explore" className="col-md-3 mb-3">
-            <nav className="nav flex-column sticky-top d-none d-md-block">
+          <div id="explore" className="col-lg-3 mb-3">
+            <nav className="nav flex-column sticky-top">
               <a className="nav-link text-3-dark plain-hover-3" href="#1">
                 1. What's a metric?
               </a>
@@ -109,13 +60,13 @@ const ToolPage = () => {
                   </a>
                 </li>
                 <li>
-                  {" "}
+                
                   <a className="nav-link text-3-dark ps-0 " href="#clv">
                     CLV
                   </a>
                 </li>
                 <li>
-                  {" "}
+               
                   <a className="nav-link text-3-dark ps-0 " href="#nps">
                     NPS
                   </a>
@@ -129,6 +80,9 @@ const ToolPage = () => {
               <a className="nav-link text-3-dark plain-hover-3" href="#4">
                 4. Vanity Metrics
               </a>
+              <a className="nav-link text-3-dark plain-hover-3" href="#5">
+              5. Conclusion
+              </a>
               <a
                 href="https://www.buymeacoffee.com/hugorichard"
                 target="blank"
@@ -141,7 +95,7 @@ const ToolPage = () => {
               </a>
             </nav>
           </div>
-          <div className="col-md-9 ">
+          <div className="col-lg-9 ">
             <div className="row">
               <h2 id="1" className="mb-5 bg-3 text-3-dark p-3 rounded-3">
                 1. What's a metric?
@@ -244,7 +198,54 @@ const ToolPage = () => {
            <p>Alongside your product iteration plan, you will need an analytic strategy. Remember, if you can’t measure it, you can’t improve it.</p>
            <p>Every time you roll out new features, make sure to have a clear analytic plan. Understand what metrics matter for your specific features and measure it closely.</p>
            <p>You should see metrics as your operational dashboard. Being able to oversee all your essential metrics is like a car dashboard, you know if your car needs servicing or if the oil needs replacement. Google Data Studio is a great tool to create your metric dashboard; Mix Panel can also be a good one. Having direct access to all your metrics allows you to act and minimise mistakes quickly.</p>
-           
+           <h2 id="3" className="mb-5 bg-3 text-3-dark mt-5 p-3 rounded-3">
+                3. Metrics that matter
+              </h2>
+<p>Let's dive deep into multiple metrics relevant for a SaaS company. Now you need to understand that any given situation lies along a spectrum; for example, a professional networking app may initially track how many prospective professionals and employers are actively using it. They would likewise then need to define what they mean by “active,” either based on the hypothesis of how often a user should perform the relevant action or by a frequency analysis of how often the users are doing so on average.</p>
+<p>Metrics are uniquely created by you but use universal names. In the example above, “active users” is defined in a specific way; other startups might define it differently. </p>
+<p>Let’s go in detail of some of the most common metrics startup uses to measure their success. Again, I put the basic simple calculation for each metrics. However, the formula might be more complicated, depending on your business model.</p>
+
+<h3 id="cac">CAC (Cost of Acquisition)</h3>
+<p>The cost of acquisition is the total expense incurred in acquiring a new client or purchasing an asset.</p>
+<img src={CAC} alt="Cost Of Acquisition Equation" className="img img-fluid"/>
+
+<h3 id="clv">CLV (Customer Lifetime Value)
+</h3>
+<p>Customer Lifetime Value represents the total amount of money a customer is expected to spend in your business, or on your products, during their lifetime.</p>
+<img src={CLV} alt="Customer Lifetime Value Equation" className="img img-fluid"/>
+
+<h3 id="nps">NPS (Net promoter Score)
+</h3>
+<p>Net Promoter Score is the percentage of customers rating their likelihood to recommend a company, a product, or a service to a friend or colleague.</p>
+<img src={NPS} alt="Net promoter score equation" className="img img-fluid"/>
+
+<h3 id="churn">Churn Rate
+</h3>
+<p>Churn rate is the percentage of your customers or subscribers who cancel or don't renew their subscriptions during a given time.</p>
+<img src={Churn} alt="Churn Rate Equation" className="img img-fluid"/>
+
+
+<h2 id="4" className="mb-5 bg-3 text-3-dark mt-5 p-3 rounded-3">
+                4. Vanity metrics
+              </h2>
+              <p>Let’s discuss vanity metrics. Vanity metrics are metrics that make you look useful to others but do not help you understand your performance in a way that informs future strategies.</p>
+            <p>Typical vanity metric in action: a massive spike in website visits in early August.
+</p>
+<img src={Visit} alt="Google Analytics Monthly Visit" className="img img-fluid" />
+<p>Great – more visits is good, right? And whatever we did in July must have made this happen, so let’s do way more of that and we can get an even more significant spike.
+</p>
+<p>This is how vanity metrics seduce you away from the measurements that matter. You can’t know from this graph what caused that spike – something you did? Something someone else did? Maybe you got some attention from an influencer, or a mention on a high-authority site – or perhaps something random and unrepeatable. That’s point one.</p>
+<h3>How do I know if it is a vanity metrics?
+</h3>
+<p>If you're unsure if a metric is a vanity metric, a quick shortcut is to ask: “Can this metric lead to a course of action or inform a decision?” If the answer is “no” or “I don't know,” then you should probably re-evaluate it.</p>
+<p><strong>Example:</strong> Think about a marketing landing page for an ebook download. Measuring pageviews doesn’t allow you to make a business decision, but measuring download rate might inspire you to test out different on-page wording, call to action buttons, or form submission styles.
+</p>
+<p>Another clue is whether or not you can manage cause and effect within your data. Observing random occurrences isn’t helpful and lightning rarely ever strikes the same spot twice. Pageviews earned from content going viral is excellent, but not useful if you can’t repeat it to expand on that success.</p>
+<h2 id="5" className="mb-5 bg-3 text-3-dark mt-5 p-3 rounded-3">
+                5. Conclusion
+              </h2><p>Startups would be better off, reporting real metrics from the start. Vanity metrics can catch up to them, primarily if those numbers do not correspond to the real numbers.</p>
+<p>Remember that all tracked metrics should help you gauge your system’s design performance and prompt you to take action if needed. Rates and ratios that stay mostly stable are ideal because any change in the metric is likely because of a real difference in the system — either a design change or a bug! — and not a random fluctuation. If a metric doesn’t have any actionable outcome when it changes over a tracked time period, then it’s likely a vanity metric and not worth tracking.
+</p>
             </div>
           </div>
         </div>
