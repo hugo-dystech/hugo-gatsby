@@ -26,7 +26,7 @@ const ToolPage = () => {
 
       {/* Start of the header for page */}
       <Header
-        title="Metrics - A biginner guide"
+        title="Metrics - A beginner guide"
         color="3"
         p1={[
           "Startup metrics are one of the most critical and often misunderstood, aspects of building a healthy startup. ",
