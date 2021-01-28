@@ -8,6 +8,8 @@ import Header from "../components/header";
 // Import secondary Nav
 import SecondNav from "../components/secondary-nav"
 
+import { Link } from "gatsby"
+
 import CAC from "../images/illustrations/CAC.jpg"
 import Churn from "../images/illustrations/Churn-Rate.jpg"
 import CLV from "../images/illustrations/CLV.jpg"
@@ -117,7 +119,7 @@ id5="5"
                 business is by having metrics. Here is a good quote that
                 illustrates the importance of metrics:
               </p>
-              <p>
+              <p className="text-3-dark text-center mt-4 mb-4">
                 <i>"If you cannot measure it, you cannot improve it."</i>
                 <br />
                 <small>- Lord Kelvin</small>
@@ -153,17 +155,20 @@ id5="5"
               </p>
               <p className="text-muted"><small>*Retention is the most important one! People often consider monetisation a vital thing to start with. However, the most important thing is acquiring user and being able to retain them. Monetisation can be improved later. Having a lot of active users using your app every month is as valuable as making money. If people use your product often for free, you can implement a monetisation strategy later. To look at it in another angle: even if you have a monetised product, without users, it is worth $0. If you have a free product with 100,000 monthly active users, it is worth something!</small></p>
             
-            <h3>Metrics & Investors</h3>
+            <h3 className="mt-3 mb-2">Metrics & Investors</h3>
             <p>Investors will want to be able to measure your success using metrics. Metrics will influence their decision in investing in your startups. Keep in mind, investors are very familiar with metrics (that’s their job) so be mindful of what you are showing them.</p>
             <p>Make sure you have a clear understanding of your metrics before you present them. Know your numbers! </p>
 
-            <h3>Metrics & Forecasting</h3>
+            <h3 className="mt-3 mb-2">Metrics & Forecasting</h3>
             <p>Are you looking to forecast your revenue for the next 12 months? Metrics will empower you to make an educated forecast. You will need maybe 6-8 months worth of data before being accurate in your prediction.</p>
             <p>Metrics also drive marketing strategy. How many users will you have in 4 months? Should you spend that much in SEM, knowing that your organic acquisitions will hit your revenue target for the year?</p>
-           <h3>Metrics & Product Development</h3>
+           <h3 className="mt-3 mb-2">Metrics & Product Development</h3>
            <p>Alongside your product iteration plan, you will need an analytic strategy. Remember, if you can’t measure it, you can’t improve it.</p>
            <p>Every time you roll out new features, make sure to have a clear analytic plan. Understand what metrics matter for your specific features and measure it closely.</p>
-           <p>You should see metrics as your operational dashboard. Being able to oversee all your essential metrics is like a car dashboard, you know if your car needs servicing or if the oil needs replacement. Google Data Studio is a great tool to create your metric dashboard; Mix Panel can also be a good one. Having direct access to all your metrics allows you to act and minimise mistakes quickly.</p>
+           <p>You should see metrics as your operational dashboard. Being able to oversee all your essential metrics is like a car dashboard, you know if your car needs servicing or if the oil needs replacement. <a href="https://datastudio.google.com/" target="blank">Google Data Studio</a> is a great tool to create your metric dashboard; <a href="https://mixpanel.com/" target="blank">Mix Panel</a> can also be a good one. Having direct access to all your metrics allows you to act and minimise mistakes quickly.</p>
+           <p className="text-muted">PS: you can visit my <Link to="/tools/" target="blank">tools page</Link> I have listed lots of tool to use for gorwth</p>
+           
+           
            <h2 id="3" className="mb-5 bg-3 text-3-dark mt-5 p-3 rounded-3">
                 3. Metrics that matter
               </h2>
@@ -171,25 +176,45 @@ id5="5"
 <p>Metrics are uniquely created by you but use universal names. In the example above, “active users” is defined in a specific way; other startups might define it differently. </p>
 <p>Let’s go in detail of some of the most common metrics startup uses to measure their success. Again, I put the basic simple calculation for each metrics. However, the formula might be more complicated, depending on your business model.</p>
 
-<h3 id="cac">CAC (Cost of Acquisition)</h3>
-<p>The cost of acquisition is the total expense incurred in acquiring a new client or purchasing an asset.</p>
+<h3 className="mt-3 mb-2" id="cac">CAC (Cost of Acquisition)</h3>
+<p>The cost of acquisition is the total expense incurred in acquiring a new client or purchasing an asset. <br/>You can learn more about CAC <a href="https://www.investopedia.com/terms/c/costofacquisition.asp" target="blank">here</a></p>
 <div><img src={CAC} alt="Cost Of Acquisition Equation" className="img img-fluid"/></div>
+<p>Ideally, your cost of acquisition should be as low as possible. There are multiple ways to reduce your CAC, you can visit <a href="https://www.smartbugmedia.com/blog/how-to-reduce-customer-acquisition-cost" target="blank">this link</a> to learn more about techniques to improve your CAC.</p>
 
-<h3 id="clv">CLV (Customer Lifetime Value)
+<h3 className="mt-3 mb-2" id="clv">CLV (Customer Lifetime Value)
 </h3>
-<p>Customer Lifetime Value represents the total amount of money a customer is expected to spend in your business, or on your products, during their lifetime.</p>
+<p>Customer Lifetime Value represents the total amount of money a customer is expected to spend in your business, or on your products, during their lifetime. Learn more about CLV <a href="https://www.qualtrics.com/au/experience-management/customer/customer-lifetime-value/" tagret="blank">here</a>.</p>
 <div><img src={CLV} alt="Customer Lifetime Value Equation" className="img img-fluid"/></div>
+<p>Calculating the CLV for different customers helps in a number of ways, mainly regarding business decision-making. Knowing your CLV you can determine, among other things:
+<ul>
+  <li>How much you can spend to acquire a similar customer and still have a profitable relationship</li>
+  <li>What kinds of products customers with the highest CLV want
+</li>
+  <li>Which products have the highest profitability
+</li>
+  <li>Who your most profitable types of clients are
+</li>
+</ul>
+</p>
 
-<h3 id="nps">NPS (Net promoter Score)
+<p>Together, these types of decisions can significantly boost your business profitability.
+
+Ideally, your Cost of Acquisition should be lower than your Customer Lifetime Value.
+</p>
+
+<h3 className="mt-3 mb-2" id="nps">NPS (Net promoter Score)
 </h3>
-<p>Net Promoter Score is the percentage of customers rating their likelihood to recommend a company, a product, or a service to a friend or colleague.</p>
+<p>Net Promoter Score is the percentage of customers rating their likelihood to recommend a company, a product, or a service to a friend or colleague. For more info about NPS you can go <a href="https://blog.hubspot.com/service/what-is-nps" target="blank">here</a>.</p>
 <div><img src={NPS} alt="Net promoter score equation" className="img img-fluid"/></div>
+<p>Subtracting the percentage of Detractors from the percentage of Promoters yields the Net Promoter Score, which can range from a low of -100 (if every customer is a Detractor) to a high of 100 (if every customer is a Promoter).</p>
+<p>Use your NPS as the key measure of your customers’ overall perception of your brand. Because NPS is a leading indicator from growth, it provides the best anchor for your customer experience management program. Complement NPS with other metrics and insights from various points along the customer journey, and you have a comprehensive, actionable view of your customer experience performance.</p>
 
-<h3 id="churn">Churn Rate
+<h3 className="mt-3 mb-2" id="churn">Churn Rate
 </h3>
-<p>Churn rate is the percentage of your customers or subscribers who cancel or don't renew their subscriptions during a given time.</p>
+<p>Churn rate is the percentage of your customers or subscribers who cancel or don't renew their subscriptions during a given time. More detail on churn <a href="https://www.investopedia.com/terms/c/churnrate.asp" target="blank">here</a>.</p>
 <div><img src={Churn} alt="Churn Rate Equation" className="img img-fluid"/></div>
-
+<p>Customer churn is a painful reality that all businesses have to deal with. Even the largest and most successful companies suffer from customer churn and understanding what causes formerly loyal customers to abandon ship is crucial to lasting, sustainable business growth.</p>
+<p>I would highly recommend <a href="https://www.cobloom.com/blog/churn-rate-how-high-is-too-high" target="blank">this article</a> to understand how to properly measure churn rate. It can often be miss understood.</p>
 
 <h2 id="4" className="mb-5 bg-3 text-3-dark mt-5 p-3 rounded-3">
                 4. Vanity metrics
@@ -201,7 +226,7 @@ id5="5"
 <p>Great – more visits is good, right? And whatever we did in July must have made this happen, so let’s do way more of that and we can get an even more significant spike.
 </p>
 <p>This is how vanity metrics seduce you away from the measurements that matter. You can’t know from this graph what caused that spike – something you did? Something someone else did? Maybe you got some attention from an influencer, or a mention on a high-authority site – or perhaps something random and unrepeatable. That’s point one.</p>
-<h3>How do I know if it is a vanity metrics?
+<h3 className="mt-3 mb-2">How do I know if it is a vanity metrics?
 </h3>
 <p>If you're unsure if a metric is a vanity metric, a quick shortcut is to ask: “Can this metric lead to a course of action or inform a decision?” If the answer is “no” or “I don't know,” then you should probably re-evaluate it.</p>
 <p><strong>Example:</strong> Think about a marketing landing page for an ebook download. Measuring pageviews doesn’t allow you to make a business decision, but measuring download rate might inspire you to test out different on-page wording, call to action buttons, or form submission styles.
