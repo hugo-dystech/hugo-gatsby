@@ -20,7 +20,7 @@ const ToolPage = () => {
       {/* Include SEO description of the page */}
       <Head
         title="Startup Metrics "
-        description="A biginner guide to statup metrics. Why they are important and how to measure them. Read more."
+        description="A beginner guide to statup metrics. Why they are important and how to measure them. Read more."
         keyword="startup metric"
       ></Head>
 
