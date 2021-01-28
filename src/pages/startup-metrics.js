@@ -92,7 +92,7 @@ id5="5"
                 examples above, we would do the following:
               </p>
               <p>
-                <i>page views / number of emails collected = conversion rate (in
+                <i>no. of emails collected / page views = conversion rate (in
                 percentage)</i>
               </p>
 
