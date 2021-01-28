@@ -5,6 +5,9 @@ import Layout from "../components/layout";
 import Head from "../components/head";
 // Import header section component
 import Header from "../components/header";
+// Import secondary Nav
+import SecondNav from "../components/secondary-nav"
+
 import CAC from "../images/illustrations/CAC.jpg"
 import Churn from "../images/illustrations/Churn-Rate.jpg"
 import CLV from "../images/illustrations/CLV.jpg"
@@ -42,59 +45,21 @@ const ToolPage = () => {
 
       <div className="container pt-5 pb-5">
         <div className="row">
-          <div id="explore" className="col-lg-3 mb-3">
-            <nav className="nav flex-column sticky-top">
-              <a className="nav-link text-3-dark plain-hover-3" href="#1">
-                1. What's a metric?
-              </a>
-              <a className="nav-link text-3-dark plain-hover-3" href="#2">
-                2. Why are metrics important?
-              </a>
-              <a className="nav-link text-3-dark plain-hover-3" href="#3">
-                3. Metrics that matter
-              </a>
-              <ul className="text-3-dark ms-3">
-                <li>
-                  <a className="nav-link text-3-dark  ps-0" href="#cac">
-                    CAC
-                  </a>
-                </li>
-                <li>
-                
-                  <a className="nav-link text-3-dark ps-0 " href="#clv">
-                    CLV
-                  </a>
-                </li>
-                <li>
-               
-                  <a className="nav-link text-3-dark ps-0 " href="#nps">
-                    NPS
-                  </a>
-                </li>
-                <li>
-                  <a className="nav-link text-3-dark ps-0" href="#churn">
-                    Churn Rate
-                  </a>
-                </li>
-              </ul>
-              <a className="nav-link text-3-dark plain-hover-3" href="#4">
-                4. Vanity Metrics
-              </a>
-              <a className="nav-link text-3-dark plain-hover-3" href="#5">
-              5. Conclusion
-              </a>
-              <a
-                href="https://www.buymeacoffee.com/hugorichard"
-                target="blank"
-                className="btn btn-3 mt-3"
-              >
-                Coffee?{" "}
-                <span role="img" aria-label="coffee emoji">
-                  ☕️
-                </span>
-              </a>
-            </nav>
-          </div>
+
+        <SecondNav
+color="3"
+item1="1. What's a metric?"
+id1="1"
+item2="2. Metric are important"
+id2="2"
+item3="3. Metrics that matter"
+id3="3"
+item4="4. Vanity metrics"
+id4="4"
+item5="5. Conclusion"
+id5="5"
+/>
+         
           <div className="col-lg-9 ">
             <div className="row">
               <h2 id="1" className="mb-5 bg-3 text-3-dark p-3 rounded-3">
