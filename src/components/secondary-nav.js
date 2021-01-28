@@ -22,7 +22,7 @@ class SecondNav extends React.Component {
             
           
 
-        {this.props.loading != null ? <p className="nav-link text-warning">{this.props.loading} <div className="spinner-border spinner-border-sm ms-1 mb-1" role="status">
+        {this.props.loading != null ? <p className="nav-link text-warning ps-0">{this.props.loading} <div className="spinner-border spinner-border-sm ms-1 mb-1" role="status">
         <span className="visually-hidden">Loading...</span></div></p> 
         : null} 
 
