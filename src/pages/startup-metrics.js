@@ -21,7 +21,7 @@ const ToolPage = () => {
     <Layout>
       {/* Include SEO description of the page */}
       <Head
-        title="Startup Metrics "
+        title="Startup Metrics - Beginner guide"
         description="A beginner guide to statup metrics. Why they are important and how to measure them. Read more."
         keyword="startup metric"
       ></Head>
