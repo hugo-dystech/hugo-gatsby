@@ -88,7 +88,6 @@ const IndexPage = () => {
                 <p>I work with cross-functional teams to build &amp; grow SaaS products. I also have experience in business development, marketing and strategic partnership.</p>
                 <p>I am a data-driven individual with the ability to analyse data with creative agility, extract knowledge and nurture business growth. I do my best work with teams I can learn from and challenges that kindle my curiosity.</p>
                 <p>I believe in people and social good. Tech has changed our lives over the past decades, and it is now our responsibility to do good with the tools we have.</p>
-                <p>Profit is good, but impact is better.</p>
             </div>
         </div>
     </div>
