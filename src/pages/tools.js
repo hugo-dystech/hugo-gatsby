@@ -356,7 +356,7 @@ id6="email"
                         src={Goodemail}
                         toolName="Good Email Copy"
                         toolDesc="I have been using Hubspot for a while now. Cool thing is that they have tons of email templates."
-                        website="https://www.hubspot.com/"
+                        website="https://www.goodemailcopy.com/"
                         badgeEasy
                         ></ToolCard>
 
